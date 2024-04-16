@@ -18,6 +18,7 @@ function Navbar() {
       
       </div>
 
+
       <div id='logoContainer' >
 
       <div id='navLogo'>
