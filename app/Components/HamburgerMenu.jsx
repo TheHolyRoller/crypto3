@@ -28,32 +28,30 @@ return (
 
 <li id='hamburgerListItem'>
 
-Telegram 
+Telegram
+
+</li>
+<li id='hamburgerListItem'>
+
+Twitter
 
 
 </li>
 <li id='hamburgerListItem'>
 
-Twitter 
+Dexcreener
 
 
 </li>
 <li id='hamburgerListItem'>
 
-Dexcreener 
+DexTools
 
 
 </li>
 <li id='hamburgerListItem'>
 
-DexTools 
-
-
-</li>
-<li id='hamburgerListItem'>
-
-Farcaster 
-
+Farcaster
 
 
 </li>

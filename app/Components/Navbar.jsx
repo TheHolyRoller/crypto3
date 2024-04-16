@@ -1,12 +1,22 @@
 
 
- import "../Styles/Navbar.css"
+ import "../Styles/Navbar.css";
+ import Hamburger from '../Components/HamburgerMenu.jsx'; 
+ 
+ 
+ 
 function Navbar() {
   return (
 
     <nav id='navBarContainer' >
 
       <div id='navbarSubContainer' >
+      
+      <div id='hamburgerIconContainer'>
+      
+      <Hamburger/>
+      
+      </div>
 
       <div id='logoContainer' >
 

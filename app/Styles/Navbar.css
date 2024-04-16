@@ -2,7 +2,6 @@
 
 #navBarContainer{
 
-    outline: 4px solid lime; 
 
     position: absolute; 
     top: 0; 
@@ -26,7 +25,7 @@
 
         position: absolute; 
 
-        left: 0; 
+        left: 0.68%; 
         top: 25%; 
 
         cursor: pointer;
@@ -71,9 +70,9 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
 
 
 
+
 #navbarButtonGroup{
 
-    /* outline: 10px solid red;  */
     height: 5rem; 
     position: absolute; 
     right: 0;
@@ -81,6 +80,7 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
     display: flex; 
     place-items: center;
     margin-right: 2%; 
+    
     
     
 
@@ -93,7 +93,6 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
 #navbarButtonList{
 
 
-    /* outline: 12px solid lime;  */
 
 
 }
@@ -111,16 +110,67 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+    cursor: pointer;
+    margin-top: 0.375rem; 
+    
+    
 
+
+}
+
+/* Add in the media queries here */
+
+
+@media(min-width: 1008px){
+
+
+    #hamburgerIconContainer{
+    
+        display: none; 
+        
     
     
-            
+    }
 
 
 }
 
 
+@media(max-width: 1008px){
+    
+    
+    /* Select the Navbar List here  */
+    #navbarButtonGroup{
+    
+        display: none !important; 
+        
+        
+    }
+    
+    
+    /* Select the Hamburger menu here  */
+    #logoContainer{
+        
+        
+        left: 43.4%;
+        padding-top: 2px; 
+        
+        
+        
+        
+    }
+    
+    
+    /* Center the Logo here  */
+    
+    
+    
+    
+    
+    
 
+
+}
 
 
 

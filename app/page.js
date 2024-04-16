@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main id='mainIndexPageContainer' >
 
-    {/* <Navbar/>  */}
-    <Hamburger/>
+    <Navbar/> 
+    {/* <Hamburger/> */}
     
     
    
