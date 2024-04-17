@@ -4,6 +4,8 @@ function CompanyIconsSection() {
     <div>CompanyIconsSection</div>
   );
 
+
+
 }
 
 export default CompanyIconsSection
