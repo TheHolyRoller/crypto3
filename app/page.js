@@ -10,6 +10,7 @@ import LargeCard from '../app/Components/LargeCard';
 import SquareCard from '../app/Components/SquareCard'; 
 import Footer from '../app/Components/Footer'; 
 import QuackCTA from '../app/Components/QuackCTA'; 
+import TextComponent from '../app/Components/TextComponent'; 
 
 
 
@@ -25,7 +26,8 @@ export default function Home() {
     {/* <HeroCTA/> */}
     {/* <SquareCard/>  */}
     {/* <Footer/> */}
-    <QuackCTA/>
+    {/* <QuackCTA/> */}
+    <TextComponent/> 
     
     
     
