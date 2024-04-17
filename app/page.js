@@ -9,6 +9,7 @@ import HeroCTAInfoContainer from "../app/Components/HeroCTAInfoContainer";
 import LargeCard from '../app/Components/LargeCard'; 
 import SquareCard from '../app/Components/SquareCard'; 
 import Footer from '../app/Components/Footer'; 
+import QuackCTA from '../app/Components/QuackCTA'; 
 
 
 
@@ -23,7 +24,8 @@ export default function Home() {
     {/* <LargeCard/>  */}
     {/* <HeroCTA/> */}
     {/* <SquareCard/>  */}
-    <Footer/>
+    {/* <Footer/> */}
+    <QuackCTA/>
     
     
     
