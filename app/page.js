@@ -7,6 +7,8 @@ import Hamburger from  "../app/Components/HamburgerMenu";
 import HeroCTA from '../app/Components/HeroCTAComponent'; 
 import HeroCTAInfoContainer from "../app/Components/HeroCTAInfoContainer"; 
 import LargeCard from '../app/Components/LargeCard'; 
+import SquareCard from '../app/Components/SquareCard'; 
+import Footer from '../app/Components/Footer'; 
 
 
 
@@ -18,9 +20,13 @@ export default function Home() {
     {/* <Navbar/>  */}
     {/* <Hamburger/> */}
     {/* <HeroCTAInfoContainer/> */}
-    <LargeCard/> 
-    
+    {/* <LargeCard/>  */}
     {/* <HeroCTA/> */}
+    {/* <SquareCard/>  */}
+    <Footer/>
+    
+    
+    
    
     </main>
   );
