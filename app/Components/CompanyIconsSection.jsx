@@ -6,6 +6,7 @@ function CompanyIconsSection() {
 
 
 
+
 }
 
 export default CompanyIconsSection
