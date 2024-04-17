@@ -1,4 +1,11 @@
 
+'use client'; 
+
+ 
+ import '../Styles/LargeCards.css'; 
+ 
+
+ 
  export default function LargeCard() {
   return (
 
@@ -10,16 +17,63 @@
     <div id="cardBackgroundContainer">
         
         
-        </div>        
+        
+      <div id='largeCardImageContainer'>
+      
+      
+      <div id='largeCardImage'></div>
+      
+      
+      
+      
+      </div>        
+        
         
 
-        <div id="cardCTAContainer">
+        <section id="largeCardCTAContainer">
 
+         <div id='largeCardCTAHeaderContainer'>
+         
+          <h1 id='largeCardCTAHeader' >
+          
+          Earn your way
+          
+          </h1>         
+         </div>
+         
+         <div id='largeCardCTATextContainer'>
+                 
+                 <div id='largeCardCTAText' >
+                 Staking, liquid   
+                 <span id='largeCardCTASpan' ></span>
+                 staking, or vaults
+                 </div>
+                 
+                 
+
+         </div>
+          <div id='largeCardCTAButton' >
+          
+          Buy $Meelay
+          
+          {/* Not working */}
+          
+          {/* <div id='largeCardSVG' >
+          
+          <Arrow/>
+          
+
+          
+          </div> */}
+          
+          {/* Add in the icon here  */}
+          
+          </div>
          
 
-         
-
-        </div>
+        </section>
+        
+        </div>        
         
         
         </div>        

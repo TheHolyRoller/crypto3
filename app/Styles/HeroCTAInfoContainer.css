@@ -2,19 +2,34 @@
 #heroCTACoinInfoContainer{
 
 
-    width: 80vw; 
+    /* width: max-content;  */
+    
+    width: 63vw; 
     outline: 4px solid blue; 
     display: grid; 
     place-content: center;
-    margin: 0 auto; 
+    margin: 4rem auto; 
+    max-width: 935px; 
+    
+    
+    min-height: 6.813rem; 
+    
     
         
         
         
     }
     
+    
+  
+    
     #heroCTACoinInfoSubContainer{
     
+        width: 100%;  
+        
+        display: grid; 
+        place-content: center;
+        
         
         
         
@@ -24,20 +39,45 @@
     
     #heroCTAList{
     
-        
+    display: flex; 
+    list-style: none; 
+    
+    
+    outline: 4px solid red; 
+    /* width: max-content;  */
+    
+
         
     }
     
     
+    
     #heroCTAListItem{
     
-        
+   
+      position: relative; 
+      
+      outline: 1px solid blue; 
+
+      margin-left: 4.375rem; 
+    font-size: clamp(0.8rem, 0.5vw + 0.3rem, 0.77rem); 
+      
+      
+      /* margin-left: clamp(1rem, 0.5vw + 1rem, 4.5rem) !important     */
         
         
     }
     
     #heroCTASCAddress{
     
+    position: absolute; 
+    top: 0%; 
+    left: 0%; 
+    transform: translate(0rem, -1rem) !important; 
+    font-size: clamp(0.35rem, 0.5vw + 0.3rem, 0.77rem); 
+    
+    
+    font-weight: 650;
         
         
     }
@@ -45,6 +85,17 @@
     #heroCTANetworkSpan{
     
         
+        position: absolute; 
+        top: 0; 
+        left: 0;
+        
+    font-size: clamp(0.35rem, 0.5vw + 0.3rem, 0.77rem); 
+
+        /* font-size: 0.8rem;  */
+        font-weight: 650; 
+        transform: translate(0, -1rem) !important; 
+        
+        
         
         
     }
@@ -52,129 +103,87 @@
     
     
     
-    #heroCTAListItem{
+    .CTALeftItem{
     
+        margin-left: -12% !important; 
         
-    }
+        }
     
     #heroCTADecimalsSpan{
     
+    
+        position: absolute; 
+        top: 0; 
+        left: 0;
+        
+    font-size: clamp(0.35rem, 0.5vw + 0.3rem, 0.77rem); 
+
+        /* font-size: 0.8rem;  */
+        font-weight: 650; 
+        transform: translate(0, -1rem) !important; 
+       
+    
         
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @media(max-width: 1100px){
+    
+    #heroCTAList{
+    
+    display: none !important; 
+    
+    
+    }
+    
+    
+    }
+    
+    @media(min-width: 1100px){
+    
+        #heroCTAListItemMobile{
+    
+           display:none; 
+           
+           
+        
+        }
+        
+        
+        #heroCTASCAddressMobile{
+            
+           display: none;  
+           
+           
+           
+            
+        }
+    
+    
+    
+    }
+    
+    @media(max-width: 1300px){
+    
+        #heroCTAListItem{
+        
+        
+      margin-left: clamp(1rem, 0.5vw + 1rem, 4.5rem) !important    
+        
+        
+        
+        
+        }
+        
+        .CTALeftItem{
+    
+            margin-left: -42% !important; 
+            outline: 5px solid red; 
+            
+            
+            }
+    
+    
+    
+    }
 
 
 
