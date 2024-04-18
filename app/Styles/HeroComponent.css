@@ -32,8 +32,8 @@ background-color: none !important;
 #heroImageContainer{
 
     position: relative; 
-    
-    
+
+
 }
 
 
@@ -41,9 +41,8 @@ background-color: none !important;
 #heroImage{
 
 
-    /* background-image: url() ;  */
+   
 background-image: url('../assets/CryptoMarketValue.jpg') !important; 
-
 
 background-size: cover; 
 background-position: center top;
@@ -77,8 +76,11 @@ z-index: 200;
     left: 50%; 
     transform: translate(-50%, -50%) !important; 
     
-    /* outline: 20px solid lime;  */
-    z-index: 9999990; 
+    
+    
+    z-index: 1190; 
+    
+    
     color: white;
     background-color: none !important;
     

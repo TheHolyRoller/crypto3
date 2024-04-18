@@ -19,6 +19,7 @@ body{
     font-weight: 100;
     font-style: normal;
     
+    
     background-color: none !important;   
     
 
@@ -50,6 +51,7 @@ body{
 
 
 #CTAHeroHeadline{
+    
 
 
 font-size: clamp(1.2rem, 1vw + 1rem, 1.9rem) !important;

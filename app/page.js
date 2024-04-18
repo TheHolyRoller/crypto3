@@ -19,16 +19,10 @@ import ContactHeadline from '../app/Components/ContactHeadline';
 export default function Home() {
   return (
     <main id='mainIndexPageContainer' >
-     
-     <ContactHeadline>
-     
-     
-     </ContactHeadline>
-     
-     
+   
  <nav id="indexNavContainer" >
-    {/* <Navbar/>  */}
-    {/* <Hamburger/> */}
+    <Navbar/> 
+    <Hamburger/>
 
 </nav> 
 
@@ -36,37 +30,44 @@ export default function Home() {
 
 
 <header id='homeHeroContainer' >
-      {/* <Hero/> */}
+      <Hero/>
 </header>
     
-    
+   <article id='indexMainHeaderText'>
+   
+   <TextComponent/>
+   
+   
+   </article> 
    
    
       <section  id='homeLargeCardContainer'> 
-    {/* <LargeCard/>  */}
+    <LargeCard/> 
     
     </section> 
     
     
     <section id='indexSquareCardContainer' >
-    {/* <SquareCard/>  */}
+    <SquareCard/> 
     
     </section>
     
     
      <article id='indexQuackCTA'>
-    {/* <QuackCTA/> */}
+    <QuackCTA/>
       </article> 
       
       
     <article id='indexTextComponentContainer'>
     {/* <TextComponent/>  */}
     
+    <ContactHeadline/> 
     </article> 
     
     
+    
      <footer id='indexFooterContainer' >
-    {/* <Footer/> */}
+    <Footer/>
     </footer> 
     
    

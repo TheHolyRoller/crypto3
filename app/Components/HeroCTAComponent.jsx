@@ -18,6 +18,7 @@ function HeroCTAComponent() {
     
     Rapid Long Term Growth 
     
+    
     </h1>
     
     

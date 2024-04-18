@@ -30,14 +30,17 @@
                     z-index: 2;
                     cursor: pointer;
                     width: max-content;
-                    z-index: 5000;
+                    z-index: 500000;
+
+                    /* opacity: 0;  */
+                    /* pointer-events: none;  */
+                    
                     
                     overflow-x: hidden !important; 
                     
-
-
-
-
+                    /* outline: 4px solid lime;  */
+                    
+                    
                 }
 
                     .hamburgerMenu:has(input:focus-visible)::before,
@@ -58,9 +61,8 @@
                         width: var(--bar-width);
                         height: var(--bar-height);
 
-                        /**
+                       
 
-                        */
                         background-color: var(--foreground);
                         border-radius: 9000px;
                         transform-origin: left center;
@@ -98,11 +100,12 @@
 
 
 
+
                 .sidebar {
                     padding: 0.5rem 1rem;
                     transition: all var(--animation-timing);
                     margin-top: -2rem; 
-
+                    
                 
 
                     translate: -500% !important;
@@ -111,23 +114,13 @@
                     background-color: var(--foreground);
                     color: var(--background);
                     
+                    
                     width: 110vw; 
                     min-width: 29rem !important; 
-
-
-                    /* max-width: 130rem; */
                     min-height: 110vh;
-
-
-
                     display: inline-block !important; 
-
-
                     position: relative; 
-
                     z-index: 4000 !important; 
-
-
                     opacity: 1 !important; 
                     
 
@@ -141,6 +134,7 @@
                 position: relative; 
                 
                 z-index: 9000;
+                
                 
                 height: 5rem; 
                 
@@ -242,19 +236,37 @@
 
 
                     /*
-
+                    
 
                     */
                     --foreground: white;
                     --background: #333;
                 }
-
+                    
+                    @media(min-width: 995px){
+                    
+                        #hamburgerMenu{
+                        
+                            opacity: 0 !important; 
+                            display: none; 
+                            
+                            outline: 20px solid red; 
+                                                                                                                                        }
+                        
+                        
+                    }
 
                 @media(max-width: 990px){
 
                     #hamburgerMenu{
 
                         display: flex!important ; 
+
+                        opacity: 1 !important; 
+                        pointer-events: auto !important; 
+
+                        
+                        
 
                     }
 
