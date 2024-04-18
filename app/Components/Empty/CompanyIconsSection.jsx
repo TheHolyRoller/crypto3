@@ -1,10 +1,10 @@
 
+
+
 function CompanyIconsSection() {
   return (
     <div>CompanyIconsSection</div>
   );
-
-
 
 
 }

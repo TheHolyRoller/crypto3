@@ -1,11 +1,25 @@
 
 
 
+import HeroCTA from '../Components/HeroCTAComponent'; 
 
+
+import '../Styles/HeroComponent.css'; 
 
 function HeroComponent() {
   return (
     <header id='heroContainer'>
+    
+    
+    <div id="HeroCTACasing">
+
+     <HeroCTA/>
+     
+     
+      
+    </div>
+    
+    
     
     {/* Add in the image container here */}
     <div id='heroImageContainer'>
@@ -27,7 +41,7 @@ function HeroComponent() {
     
     </section>
     
-    </head>
+    </header>
   )
 }
 

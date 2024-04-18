@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
 
-/* 
 
 
+body{
 
+ background-color: rgba(0, 0, 0, 0) !important; 
 
-*/
-
-
+}
 
 
 #heroCTAContainer{
 
-    outline: 4px solid lime; 
+
     
     margin: 3rem auto; 
     width: 29.5rem; 
@@ -20,9 +19,9 @@
     font-weight: 100;
     font-style: normal;
     
+    background-color: none !important;   
     
-    
-    
+
     
 }
 
@@ -38,7 +37,7 @@
 
 #CTAHeroHeadlineContainer{
 
-outline: 4px solid lime; 
+
 
     margin: 0 auto; 
     
@@ -56,7 +55,6 @@ outline: 4px solid lime;
 font-size: clamp(1.2rem, 1vw + 1rem, 1.9rem) !important;
 font-weight: 790;
 margin: 2.375rem auto; 
-outline: 8px solid red; 
 width: max-content; 
 
     
@@ -67,7 +65,7 @@ width: max-content;
 #CTAHeroParagraphContainer{
 
 
-outline: 5px solid red; 
+
 
 text-align: center;
 width: 100%; 
@@ -93,7 +91,7 @@ font-weight: 550;
 #heroCTAButtonContainer{
 
 
-outline: 4px solid lime; 
+
 
 display: grid; 
 place-content: center;
@@ -118,7 +116,7 @@ border-radius: 7px;
 
 display: grid; 
 place-content: center;
-/* grid-template-columns: 1fr; */
+
 height: 3.55rem;
 margin: 1.625rem auto; 
 
@@ -141,6 +139,8 @@ margin: 1.625rem auto;
     text-transform: uppercase;
     margin: 0 auto; 
     display: inline;
+    
+    
     
     
 }

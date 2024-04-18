@@ -3,6 +3,7 @@
 import "../Styles/HeroCTAComponent.css"; 
 
 
+
 function HeroCTAComponent() {
   return (
     
@@ -20,11 +21,13 @@ function HeroCTAComponent() {
     </h1>
     
     
+    
     </div>
     
     {/* Add in the Supporting Text Section here  */}
     
     <div id='CTAHeroParagraphContainer'>
+    
     
     
     <p id='heroCTAParagraph'>
@@ -36,6 +39,7 @@ function HeroCTAComponent() {
     
     
     </div>
+    
     
     
     {/* Add in the CTA Button here */}

@@ -8,6 +8,7 @@
     margin: auto auto; 
     
     min-height: 12rem;          
+    
   
 
      backdrop-filter: blur(16px) saturate(180%);
@@ -123,7 +124,13 @@ border-radius: 2px;
     min-height: 4rem
     
 }    
+#largeSVG{
+
+    /* display: none !important;  */
     
+}    
+
+
 
 
 #telegramIcon{
@@ -171,6 +178,34 @@ border-radius: 2px;
 
 
 /* Add in the media queries here */
+@media(min-width: 750px ){
+
+    #mobileSVG{
+    
+        display: none !important; 
+        
+    }
+
+    
+    
+    
+}
+
+
+@media(max-width: 750px){
+
+    
+    #largeSVG{
+    
+        display: none; 
+        
+    
+    
+    }
+
+
+}
+
 
 
 @media(max-width: 600px){
@@ -194,6 +229,7 @@ border-radius: 2px;
         background-position:center center; 
         background-repeat:no-repeat; 
         background-size: contain; 
+        
         
         color: white; 
         background-color: none; 
@@ -249,7 +285,20 @@ margin-top: 4vw;
 
   
     
+
 }     
+        
+#baseIconLink{
+
+
+width: 4rem ; 
+
+height: 5rem;
+    
+}
+
+
+
         
 #footerList{     
 

@@ -37,6 +37,7 @@
 
 
 
+
                 }
 
                     .hamburgerMenu:has(input:focus-visible)::before,
@@ -140,6 +141,9 @@
                 position: relative; 
                 
                 z-index: 9000;
+                
+                height: 5rem; 
+                
                 
 
                 }

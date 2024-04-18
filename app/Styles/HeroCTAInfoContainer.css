@@ -2,10 +2,8 @@
 #heroCTACoinInfoContainer{
 
 
-    /* width: max-content;  */
-    
     width: 63vw; 
-    outline: 4px solid blue; 
+  
     display: grid; 
     place-content: center;
     margin: 4rem auto; 
@@ -13,11 +11,6 @@
     
     
     min-height: 6.813rem; 
-    
-    
-        
-        
-        
     }
     
     
@@ -43,10 +36,7 @@
     list-style: none; 
     
     
-    outline: 4px solid red; 
-    /* width: max-content;  */
     
-
         
     }
     
@@ -57,7 +47,8 @@
    
       position: relative; 
       
-      outline: 1px solid blue; 
+
+      /* outline: 1px solid blue;  */
 
       margin-left: 4.375rem; 
     font-size: clamp(0.8rem, 0.5vw + 0.3rem, 0.77rem); 
@@ -176,7 +167,8 @@
         .CTALeftItem{
     
             margin-left: -42% !important; 
-            outline: 5px solid red; 
+            
+            /* outline: 5px solid red;  */
             
             
             }

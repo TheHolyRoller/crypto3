@@ -1,5 +1,5 @@
 
-
+'use client'
 import Image from "next/image";
 
 import Navbar from '../app/Components/Navbar'; 
@@ -11,6 +11,7 @@ import SquareCard from '../app/Components/SquareCard';
 import Footer from '../app/Components/Footer'; 
 import QuackCTA from '../app/Components/QuackCTA'; 
 import TextComponent from '../app/Components/TextComponent'; 
+import Hero from '../app/Components/HeroComponent'; 
 
 
 
@@ -18,18 +19,48 @@ export default function Home() {
   return (
     <main id='mainIndexPageContainer' >
 
+ <nav id="indexNavContainer" >
+    <Navbar/> 
+    <Hamburger/>
 
-    {/* <Navbar/>  */}
-    {/* <Hamburger/> */}
-    {/* <HeroCTAInfoContainer/> */}
-    {/* <LargeCard/>  */}
-    {/* <HeroCTA/> */}
-    {/* <SquareCard/>  */}
-    {/* <Footer/> */}
-    {/* <QuackCTA/> */}
+</nav> 
+
+
+
+
+<header id='homeHeroContainer' >
+      <Hero/>
+</header>
+    
+    
+   
+   
+      <section  id='homeLargeCardContainer'> 
+    <LargeCard/> 
+    
+    </section> 
+    
+    
+    <section id='indexSquareCardContainer' >
+    <SquareCard/> 
+    
+    </section>
+    
+    
+     <article id='indexQuackCTA'>
+    <QuackCTA/>
+      </article> 
+      
+      
+    <article id='indexTextComponentContainer'>
     <TextComponent/> 
     
+    </article> 
     
+    
+     <footer id='indexFooterContainer' >
+    <Footer/>
+    </footer> 
     
    
     </main>
