@@ -13,12 +13,20 @@ import QuackCTA from '../app/Components/QuackCTA';
 import TextComponent from '../app/Components/TextComponent'; 
 import Hero from '../app/Components/HeroComponent'; 
 import ContactHeadline from '../app/Components/ContactHeadline'; 
+import Head from 'next/head';
+
 
 
 
 export default function Home() {
   return (
-    <main id='mainIndexPageContainer' >
+
+<>
+<Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Next.js Page</title>
+      </Head>
+    <main id='mainIndexPageContainer' style={{overflowX:'hidden'}} >
    
  <nav id="indexNavContainer" >
     <Navbar/> 
@@ -72,5 +80,7 @@ export default function Home() {
     
    
     </main>
+
+</>
   );
 }

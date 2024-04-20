@@ -7,6 +7,7 @@
 
 
 
+
                 :root {
                     --bar-width: 30px;
                     --bar-height:3px;
@@ -14,7 +15,8 @@
 
                     --foreground:   #333;
                     --background: white;
-                    --hamburger-margin: 8px;
+                    --hamburger-margin: 0.5rem;
+                    --hamburger-left-margin: 3%;
                     --animation-timing: 200ms cubic-bezier(0.4, 0, 0.2, 1);
                     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
                 }
@@ -26,7 +28,7 @@
                     gap: var(--hamburger-gap);
                     position: absolute;
                     top: var(--hamburger-margin);
-                    left: var(--hamburger-margin);
+                    left: var(--hamburger-left-margin);
                     z-index: 2;
                     cursor: pointer;
                     width: max-content;
@@ -117,7 +119,7 @@
                     
                     width: 110vw; 
                     min-width: 29rem !important; 
-                    min-height: 110vh;
+                    min-height: 125vh;
                     display: inline-block !important; 
                     position: relative; 
                     z-index: 4000 !important; 
@@ -164,9 +166,10 @@
                 #hamburgerMenu{
 
 
-                    margin: 2rem auto; 
+                    margin: 0rem auto; 
                     position: relative; 
-                    
+                    outline: 4px solid lime; 
+
                     
                     
 
@@ -195,6 +198,11 @@
                 display: grid; 
                 place-content: center;
 
+                outline: 4px solid lime; 
+                width: 70vw; 
+                place-self: center; 
+
+
 
 
 
@@ -206,7 +214,14 @@
 
 
                 margin: 0.6rem auto;
-                text-align: left; 
+                text-align: center; 
+                /* outline: 4px solid lime;  */
+                /* padding: 15% 40%;  */
+                width: 70vw;
+                min-height: 4rem; 
+                display: grid; 
+                place-content: center; 
+                
 
 
 
@@ -217,9 +232,47 @@
                 cursor: pointer;
                 
 
+                    backdrop-filter: blur(3px) saturate(157%);
+                    -webkit-backdrop-filter: blur(3px) saturate(157%);
+                    background-color: rgba(17, 25, 40, 0.69);
+                    border-radius: 12px;
+                    border: 1px solid rgba(255, 255, 255, 0.125);
+                    /* -webkit-transform: translate(-50%, -50%) !important ;
+                    -moz-transform: translate(-50%, -50%) !important ;
+                    -ms-transform: translate(-50%, -50%) !important ;
+                    -o-transform: translate(-50%, -50%) !important ;  */
+
 
                     
                 }
+
+
+                #hamburgerListItem::after{
+
+
+                    
+                    /* content: '';
+                    position: absolute;
+                    width: 40%;
+                    height: 30%;
+                    
+                    
+                    top: 10%;
+                    left: 50%;
+                    transform: translate(-50%, -50%) !important ;
+                    
+                    backdrop-filter: blur(3px) saturate(157%);
+                    -webkit-backdrop-filter: blur(3px) saturate(157%);
+                    background-color: rgba(17, 25, 40, 0.69);
+                    border-radius: 12px;
+                    border: 1px solid rgba(255, 255, 255, 0.125);
+                    -webkit-transform: translate(-50%, -50%) !important ;
+                    -moz-transform: translate(-50%, -50%) !important ;
+                    -ms-transform: translate(-50%, -50%) !important ;
+                    -o-transform: translate(-50%, -50%) !important ; */
+
+
+}
 
 
 
@@ -245,7 +298,7 @@
                     
                     @media(min-width: 995px){
                     
-                        #hamburgerMenu{
+                        .hamburgerMenu{
                         
                             opacity: 0 !important; 
                             display: none; 

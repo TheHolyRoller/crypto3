@@ -10,9 +10,11 @@
     min-height: 5rem; 
     width: 99.99vw; 
     
+
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.75);
+     overflow: hidden; 
      
 
 }
@@ -154,30 +156,21 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
     
     /* Select the Hamburger menu here  */
     #logoContainer{
+        /*left: 43.4%;
+        */left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) !important ;
+        padding-top: 2px;
         
-        
-        left: 43.4%;
-        padding-top: 2px; 
-        
-        
-        
-        
-    }
-    
-    
-    /* Center the Logo here  */
-    
-    
-    
-    
-    
-    
-
-
+        -webkit-transform: translate(-50%, -50%) !important ;
+        -moz-transform: translate(-50%, -50%) !important ;
+        -ms-transform: translate(-50%, -50%) !important ;
+        -o-transform: translate(-50%, -50%) !important ;
 }
 
 
 
+}
 
 
 

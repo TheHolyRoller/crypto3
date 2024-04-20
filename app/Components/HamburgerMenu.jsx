@@ -1,12 +1,19 @@
 
 
 import "../Styles/HamburgerMenu.css";
+import Head from 'next/head';
+
 
 
 function HamburgerMenu() {
 
 return (
 <>
+<Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Next.js Page</title>
+      </Head>
+
     <aside id='hamburgerMenuContainer' >
     <label className="hamburgerMenu">
 
@@ -22,12 +29,12 @@ return (
 {/* Add in the Hamburger Cards here */}
 
 <div id='hamburgerListContainer'>
-    
-    
+
 
 <ul id='hamburgerList' >
 
 <li id='hamburgerListItem'>
+{/* Add in the Links here */}
 
 Telegram
 

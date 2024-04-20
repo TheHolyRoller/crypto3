@@ -15,7 +15,8 @@ import XIcon from '@mui/icons-material/X';
   // Add in the imports for conditional Rendering here
   import React, { useState, useEffect } from 'react';
   
-  
+  import Head from 'next/head';
+
 
 
 
@@ -35,6 +36,12 @@ function Footer() {
  
   return (
 
+    <>
+
+<Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Next.js Page</title>
+      </Head>
     <footer id='footerMainContainer'>
     
     <div id='footerSubContainer'>
@@ -205,6 +212,9 @@ function Footer() {
     </div>
     
     </footer>
+
+    </>
+
   );
   
 
