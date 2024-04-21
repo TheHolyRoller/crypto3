@@ -46,7 +46,6 @@ return (
 
 <a href="https://t.me/meelaymemes" alt='alt' target="_blank">
 
-
 {/* Add in the media queries here  */}
 <TelegramIcon  sx={{
 fontSize: {

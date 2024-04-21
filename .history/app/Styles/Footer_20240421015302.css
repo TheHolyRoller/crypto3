@@ -34,7 +34,8 @@
     place-content: center; 
 
     position: relative; 
-
+    
+  
 
 }
 
@@ -43,7 +44,7 @@
 
 #footerList{
 
-     
+     /* outline: 6px solid red;  */
      display: flex; 
    
     place-items: center; 
