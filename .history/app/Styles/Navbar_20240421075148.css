@@ -4,8 +4,7 @@
 :root{
 
 --icon-dimensions: 2.5rem; 
- 
- 
+
 
 }
 
@@ -190,8 +189,6 @@ cursor: pointer !important;
     background-position:center center; 
     background-repeat:no-repeat; 
     background-size: contain; 
-    outline: 4px solid lime; 
-    
 
     color: white; 
     background-color: none; 

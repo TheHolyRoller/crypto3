@@ -131,8 +131,7 @@
                 
                 position: relative; 
                 z-index: 9000; 
-                /* outline: 40px solid lime;  */
-                width: 20vw; 
+                outline: 40px solid lime; 
                 
                 
                 height: 5rem; 
