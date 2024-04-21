@@ -186,15 +186,14 @@ cursor: pointer !important;
 
 
 
-    
-    /* outline: 4px solid lime;  */
-    display: grid;
-    place-content: center;
+    background-image: url("../assets/DexToolCrypto.webp");
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    background-size: contain; 
     
     color: white; 
     background-color: none; 
-    
-    width: 3rem; 
+    width: 4rem; 
     min-height: 2.5rem; 
     
     cursor: pointer; 

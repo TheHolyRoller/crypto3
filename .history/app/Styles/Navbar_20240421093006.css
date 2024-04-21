@@ -187,8 +187,8 @@ cursor: pointer !important;
 
 
     
-    /* outline: 4px solid lime;  */
-    display: grid;
+    outline: 4px solid lime; 
+    display: grid; 
     place-content: center;
     
     color: white; 
