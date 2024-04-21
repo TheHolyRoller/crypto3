@@ -55,10 +55,6 @@ function Navbar() {
 
       <li id='navbarListItem' >
       <a href="https://t.me/meelaymemes" target="_blank">
-      
-     
-      
-      
       <TelegramIcon  sx={{
         fontSize: {
           xs: '2.37rem',  // for extra-small screens
@@ -67,7 +63,9 @@ function Navbar() {
         }
         
       }}/>
-      
+        
+        
+
       </a>
 
       </li>

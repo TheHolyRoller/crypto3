@@ -34,7 +34,6 @@ function Footer() {
         <li id='footerListItem' className='dexToolsClass' >
 
 
-
        <div id='dexToolsContainer' >
 
        <a href="https://dexscreener.com/base/0xd109457ac2d85f428a98addf6e1c7ec898976405" target="_blank">

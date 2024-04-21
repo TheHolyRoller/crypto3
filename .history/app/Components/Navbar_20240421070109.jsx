@@ -56,7 +56,8 @@ function Navbar() {
       <li id='navbarListItem' >
       <a href="https://t.me/meelaymemes" target="_blank">
       
-     
+      <Tooltip title="Telegram">
+      <IconButton>
       
       
       <TelegramIcon  sx={{
@@ -68,6 +69,14 @@ function Navbar() {
         
       }}/>
       
+      </IconButton>
+    </Tooltip>
+      
+      
+      
+        
+        
+
       </a>
 
       </li>

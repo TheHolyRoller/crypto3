@@ -113,8 +113,8 @@ font-weight: 600;
 font-family: "Poppins", sans-serif;
 
 
-background: #286091; 
 
+background: blue; 
 border-radius: 7px; 
 
 display: grid; 
@@ -123,8 +123,7 @@ place-content: center;
 height: 3.55rem;
 margin: 1.625rem auto; 
 
-transition: all 600ms cubic-bezier(0.5, 0, 0.5, 1);
-/* transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55); */
+transition: all 500ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
 /* Add in the bezier timing function here */
 
 
@@ -133,7 +132,6 @@ transition: all 600ms cubic-bezier(0.5, 0, 0.5, 1);
 
 #heroCTAButton:hover{
 
-transform: scale(1.1); 
 
 
 

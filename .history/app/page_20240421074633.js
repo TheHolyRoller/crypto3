@@ -15,16 +15,11 @@ import Hero from '../app/Components/HeroComponent';
 import ContactHeadline from '../app/Components/ContactHeadline'; 
 import Head from 'next/head';
 
-import useLockOrientation from '../app/hooks/useLockOrientation'; 
-
+import useLockOrientation from '../app/hooks/useLockOrientation'
 
 
 
 export default function Home() {
-  
-  useLockOrientation(); 
-  
-  
   return (
 
 <>

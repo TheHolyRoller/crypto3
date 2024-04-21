@@ -43,7 +43,6 @@ function HeroCTAComponent() {
     
     
     
-    
     {/* Add in the CTA Button here */}
     <div id='heroCTAButtonContainer'>
     

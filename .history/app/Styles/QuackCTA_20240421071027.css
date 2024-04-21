@@ -4,24 +4,35 @@
 
     width: 99.99vw;
     margin: 5rem auto;
-    display: grid;
-    place-content: center;
+    display: grid; 
+    place-content: center; 
+    
     background: #e5a51c;
     height: clamp(8.313rem, 5vw + 12rem, 20rem) !important; 
 
+    
 }
+
 
 
 #quackCTASubContainer{
 
     width:51.5vw; 
     margin: 0 auto; 
-
+    /* Add in the background here */
+    
+   
+    
+    
+    
     
 }
 
 #quackCTATextContainer{
 
+
+
+    
 }
 
 
@@ -73,18 +84,7 @@ text-align: center;
     
     cursor: pointer; 
     
-    transition: all 600ms cubic-bezier(0.5, 0, 0.5, 1);
     
-
-    
-    
-}
-
-#quackCTAButton:hover{
-
-        
-    transform: scale(1.1); 
-        
     
 }
 

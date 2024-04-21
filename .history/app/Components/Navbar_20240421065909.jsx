@@ -7,7 +7,6 @@
    import { styled } from '@mui/material/styles';
    import IconButton from '@mui/material/IconButton';
    import Tooltip from '@mui/material/Tooltip';
-   
  
  
 function Navbar() {
@@ -55,10 +54,6 @@ function Navbar() {
 
       <li id='navbarListItem' >
       <a href="https://t.me/meelaymemes" target="_blank">
-      
-     
-      
-      
       <TelegramIcon  sx={{
         fontSize: {
           xs: '2.37rem',  // for extra-small screens
@@ -67,7 +62,9 @@ function Navbar() {
         }
         
       }}/>
-      
+        
+        
+
       </a>
 
       </li>

@@ -113,8 +113,10 @@ font-weight: 600;
 font-family: "Poppins", sans-serif;
 
 
+/* Change this to a proper blue  */
 background: #286091; 
 
+/* background: blue;  */
 border-radius: 7px; 
 
 display: grid; 

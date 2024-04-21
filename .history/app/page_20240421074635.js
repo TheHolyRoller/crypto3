@@ -21,10 +21,6 @@ import useLockOrientation from '../app/hooks/useLockOrientation';
 
 
 export default function Home() {
-  
-  useLockOrientation(); 
-  
-  
   return (
 
 <>
