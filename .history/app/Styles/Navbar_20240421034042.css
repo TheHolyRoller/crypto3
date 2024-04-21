@@ -152,7 +152,6 @@ cursor: pointer !important;
     width: var(--icon-dimensions); 
     height: var(--icon-dimensions); 
     position: relative; 
-    cursor: pointer;
 }
 
 #navbarDexToolsImage{

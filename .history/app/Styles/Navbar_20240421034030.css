@@ -136,6 +136,8 @@ cursor: pointer !important;
 #navbarTwitterIcon{
     
     cursor: pointer; 
+    
+    
 }
 
 
@@ -143,7 +145,10 @@ cursor: pointer !important;
     
     width: 2.5rem; 
     height: 3rem; 
-
+    
+    
+    
+    
 }
 
 #navbarDexScreenContainer{
@@ -152,7 +157,9 @@ cursor: pointer !important;
     width: var(--icon-dimensions); 
     height: var(--icon-dimensions); 
     position: relative; 
-    cursor: pointer;
+    
+    
+    
 }
 
 #navbarDexToolsImage{

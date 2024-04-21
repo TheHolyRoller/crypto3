@@ -107,7 +107,10 @@ function Footer() {
         <div id='baseIcon'>
         
         <a id='baseIconLink'  href='https://base.party.app/party/0xd8de302590e0a84b846643e549ebe3537416cd55' target="_blank">
-       
+        {/* width="226" height="44" */}
+        {/* max-width="4.5rem" */}
+        
+        {/*  min-width="2.375rem" */}
         <svg id='largeSVG' xmlns="http://www.w3.org/2000/svg"  width="19vw" min-height="100%"  viewBox="0 0 356 84" fill="none"><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link" /><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link" /><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet" /><script xmlns="" />
 <path d="M41.6003 72.8611C63.8981 72.8611 81.9741 59.9948 81.9741 44.1234C81.9741 28.252 63.8981 15.3857 41.6003 15.3857C19.3025 15.3857 1.22656 28.252 1.22656 44.1234C1.22656 59.9948 19.3025 72.8611 41.6003 72.8611Z" fill="black" />
 <path d="M41.6016 70.4021C64.5775 70.4021 83.2031 57.5358 83.2031 41.6644C83.2031 25.793 64.5775 12.9268 41.6016 12.9268C18.6257 12.9268 0 25.793 0 41.6644C0 57.5358 18.6257 70.4021 41.6016 70.4021Z" fill="url(#paint0_radial_33813_182205)" />

@@ -71,11 +71,12 @@ function Navbar() {
       <a href="http://x.com/javormeelay" target='_blank'>
         {/* Add in the twitter Icon here */}
         
-        <XIcon id='navbarTwitterIcon'  sx={{
+        <XIcon  sx={{
         fontSize: {
           xs: '1.8rem',  // for extra-small screens
           sm: '2rem',    // for small screens
-          md: '2.34rem',  // for medium screens
+          md: '2.5rem',  // for medium screens
+          lg: '3rem',    // for large screens
         }
   
       }} />

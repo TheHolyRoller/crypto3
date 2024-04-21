@@ -27,7 +27,6 @@
      overflow: hidden; 
      
      cursor: pointer; 
-
      
      
      
@@ -83,6 +82,8 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
 
     position: relative; 
 
+    
+
 }
 
 
@@ -97,6 +98,9 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
     display: flex; 
     place-items: center;
     margin-right: 2%; 
+    
+    
+    
 
 }
 
@@ -110,6 +114,8 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
 display: flex; 
 
 cursor: pointer !important; 
+
+
 
 
 }
@@ -129,6 +135,11 @@ cursor: pointer !important;
     font-style: normal;
     cursor: pointer !important;
     margin-top: 0.375rem; 
+    
+    
+    
+    
+
 
 }
 
@@ -136,6 +147,8 @@ cursor: pointer !important;
 #navbarTwitterIcon{
     
     cursor: pointer; 
+    
+    
 }
 
 
@@ -143,7 +156,10 @@ cursor: pointer !important;
     
     width: 2.5rem; 
     height: 3rem; 
-
+    
+    
+    
+    
 }
 
 #navbarDexScreenContainer{
@@ -152,7 +168,9 @@ cursor: pointer !important;
     width: var(--icon-dimensions); 
     height: var(--icon-dimensions); 
     position: relative; 
-    cursor: pointer;
+    
+    
+    
 }
 
 #navbarDexToolsImage{
