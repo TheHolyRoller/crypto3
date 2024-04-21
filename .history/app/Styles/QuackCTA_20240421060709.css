@@ -155,7 +155,7 @@ text-align: center;
     
     #quackCTAMainContainer{
 
-        height: clamp(8.313rem, 30.5vw + 16rem, 33rem) !important; 
+        height: clamp(8.313rem, 30.5vw + 18rem, 33rem) !important; 
         
         
     }

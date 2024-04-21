@@ -67,6 +67,10 @@
 #dexToolIconImage{
 
 background-image: url("../assets/DexToolCrypto.webp");
+
+
+
+
 background-position:center center; 
 background-repeat:no-repeat; 
 background-size: contain; 
@@ -78,10 +82,23 @@ min-height: 3rem;
 
 cursor: pointer; 
 
+
+
+
+
+
+
 }
 
 
+
+
 #dexToolIconImage{
+
+    
+
+
+    
 }
 
 
@@ -162,28 +179,12 @@ border-radius: 2px;
 }
 
 
-
-/* This is the media query for the base icon */
-@media(max-width: 1200px){
-
-
-    
-    
-}
-
-
-
-
-
-
 /* Add in the media queries here */
 @media(min-width: 750px ){
 
     #mobileSVG{
     
         display: none !important; 
-        
-        
         
     }
 
@@ -202,12 +203,6 @@ border-radius: 2px;
         
     
     
-    }
-    
-    #mobileSVG{
-        
-        transform: translate(6%, 0);
-        
     }
 
 
@@ -320,60 +315,6 @@ height: 5rem;
 }
    
 
-}
-
-@media(max-width: 420px){
-
-  
-    #footerMainContainer{
-        
-        width: 99vw; 
-    margin: auto auto; 
-    
-    min-height: 12rem; 
-        
-    }
-    
-    /* Add in the List here and make sure things are centered */
-    #footerList{
-
-        
-
-        width: 80%; 
-        display: grid; 
-        place-content: center; 
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        
-        
-    }
-    
-    /* Select the first icon here and translate it right slightly  */
-    #dexToolsContainer{
-
-
-        transform: translate(1rem, 5px) !important;
-        
-    }
-    
-    
-    /* Add in the List item here */
-    /* Reduce the margin here */
-    #footerListItem{
-        
-        width:2.875rem; 
-        margin-left: 2.5vw; 
-        margin-right: 2.5vw;
-
-        
-    }
-    
-    /* Add in the Square Card here  */
-    
-    
-    
-    /* Add in the Text CTA here  */
-    
-    
 }
 
 

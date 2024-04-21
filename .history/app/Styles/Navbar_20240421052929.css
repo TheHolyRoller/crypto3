@@ -27,9 +27,9 @@
      overflow-x: hidden; 
      position: fixed;
      z-index: 20; 
-     cursor: pointer !important; 
      
-        
+     cursor: pointer !important; 
+
      
 
 }

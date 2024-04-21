@@ -113,7 +113,7 @@ function Footer() {
 
 
 
-<svg id='mobileSVG' xmlns="http://www.w3.org/2000/svg"  width="13.5rem" min-height="100%"  viewBox="0 0 356 84" fill="none"><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link" /><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link" /><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet" /><script xmlns="" />
+        <svg id='mobileSVG' xmlns="http://www.w3.org/2000/svg"  width="90vw" min-height="100%"  viewBox="0 0 356 84" fill="none"><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link" /><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link" /><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet" /><script xmlns="" />
 <path d="M41.6003 72.8611C63.8981 72.8611 81.9741 59.9948 81.9741 44.1234C81.9741 28.252 63.8981 15.3857 41.6003 15.3857C19.3025 15.3857 1.22656 28.252 1.22656 44.1234C1.22656 59.9948 19.3025 72.8611 41.6003 72.8611Z" fill="black" />
 <path d="M41.6016 70.4021C64.5775 70.4021 83.2031 57.5358 83.2031 41.6644C83.2031 25.793 64.5775 12.9268 41.6016 12.9268C18.6257 12.9268 0 25.793 0 41.6644C0 57.5358 18.6257 70.4021 41.6016 70.4021Z" fill="url(#paint0_radial_33813_182205)" />
 <path d="M41.6027 61.3129C59.9171 61.3129 74.764 51.2941 74.764 38.9353C74.764 26.5764 59.9171 16.5576 41.6027 16.5576C23.2882 16.5576 8.44141 26.5764 8.44141 38.9353C8.44141 51.2941 23.2882 61.3129 41.6027 61.3129Z" fill="black" />

@@ -285,18 +285,6 @@ font-weight: 550;
 
 }
 
-@media(max-width: 420px){
-
-    #squareCardBackgroundImage{
-        
-        transform: translate(0, -5%);
-        
-        
-    }
-    
-    
-}
-
 
 
 

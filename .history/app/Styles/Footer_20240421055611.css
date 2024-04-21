@@ -351,7 +351,7 @@ height: 5rem;
     #dexToolsContainer{
 
 
-        transform: translate(1rem, 5px) !important;
+        transform: translate(1rem, 0) !important;
         
     }
     
@@ -368,7 +368,7 @@ height: 5rem;
     }
     
     /* Add in the Square Card here  */
-    
+
     
     
     /* Add in the Text CTA here  */

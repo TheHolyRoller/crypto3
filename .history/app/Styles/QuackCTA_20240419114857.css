@@ -9,7 +9,6 @@
 
     display: grid; 
     place-content: center; 
-    
     background: #F2C438;
     
     height: clamp(8.313rem, 5vw + 12rem, 20rem) !important; 
@@ -150,21 +149,6 @@ text-align: center;
     
     
 }
-
-@media(max-width: 420px){
-    
-    #quackCTAMainContainer{
-
-        height: clamp(8.313rem, 30.5vw + 16rem, 33rem) !important; 
-        
-        
-    }
-    
-    
-    
-}
-
-
 
 
 

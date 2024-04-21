@@ -9,7 +9,6 @@ function SquareCard() {
     <div id='squareCardContainer' >
     
     
-    
     <div id='squareCardBackgroundImageContainer' >
     
     <div id='squareCardBackgroundImage'>

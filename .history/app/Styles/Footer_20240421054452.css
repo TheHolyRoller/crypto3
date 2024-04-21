@@ -206,7 +206,7 @@ border-radius: 2px;
     
     #mobileSVG{
         
-        transform: translate(6%, 0);
+        transform: translate(-5%, 0);
         
     }
 
@@ -324,54 +324,13 @@ height: 5rem;
 
 @media(max-width: 420px){
 
-  
-    #footerMainContainer{
-        
-        width: 99vw; 
-    margin: auto auto; 
+    /* Add in the main footer container here  */
+    /* Adjust the Width here */
     
-    min-height: 12rem; 
-        
-    }
-    
-    /* Add in the List here and make sure things are centered */
-    #footerList{
-
-        
-
-        width: 80%; 
-        display: grid; 
-        place-content: center; 
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        
-        
-    }
-    
-    /* Select the first icon here and translate it right slightly  */
-    #dexToolsContainer{
-
-
-        transform: translate(1rem, 5px) !important;
-        
-    }
     
     
     /* Add in the List item here */
     /* Reduce the margin here */
-    #footerListItem{
-        
-        width:2.875rem; 
-        margin-left: 2.5vw; 
-        margin-right: 2.5vw;
-
-        
-    }
-    
-    /* Add in the Square Card here  */
-    
-    
-    
-    /* Add in the Text CTA here  */
     
     
 }

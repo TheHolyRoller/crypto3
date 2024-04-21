@@ -324,34 +324,14 @@ height: 5rem;
 
 @media(max-width: 420px){
 
-  
+    /* Add in the main footer container here  */
+    /* Adjust the Width here */
     #footerMainContainer{
         
         width: 99vw; 
     margin: auto auto; 
     
     min-height: 12rem; 
-        
-    }
-    
-    /* Add in the List here and make sure things are centered */
-    #footerList{
-
-        
-
-        width: 80%; 
-        display: grid; 
-        place-content: center; 
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        
-        
-    }
-    
-    /* Select the first icon here and translate it right slightly  */
-    #dexToolsContainer{
-
-
-        transform: translate(1rem, 5px) !important;
         
     }
     
@@ -366,13 +346,6 @@ height: 5rem;
 
         
     }
-    
-    /* Add in the Square Card here  */
-    
-    
-    
-    /* Add in the Text CTA here  */
-    
     
 }
 

@@ -8,7 +8,6 @@ function QuackCTA() {
   return (
   
   
-  
     <div id="quackCTAMainContainer">
         <div id="quackCTASubContainer">
         
