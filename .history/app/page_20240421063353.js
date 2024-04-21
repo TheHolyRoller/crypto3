@@ -30,11 +30,7 @@ export default function Home() {
    
  <nav id="indexNavContainer" >
     <Navbar/> 
-    
-    <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '0'}}>
-    
     <Hamburger/>
-    </div>
 
 </nav> 
 

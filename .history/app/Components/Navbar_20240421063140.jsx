@@ -16,12 +16,13 @@ function Navbar() {
 
       <div id='navbarSubContainer'  >
       
-      <div id='hamburgerIconContainer'>
+      <div id='hamburgerIconContainer' style={{outline: '4px solid lime'}} >
 
       {/* Add in conditional rendering here */}
       
 
       
+      <Hamburger/>
       
       </div>
 

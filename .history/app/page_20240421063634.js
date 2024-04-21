@@ -31,7 +31,7 @@ export default function Home() {
  <nav id="indexNavContainer" >
     <Navbar/> 
     
-    <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '0'}}>
+    <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '25%'}} >
     
     <Hamburger/>
     </div>
