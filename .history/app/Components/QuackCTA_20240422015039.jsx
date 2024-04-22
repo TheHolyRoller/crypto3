@@ -30,9 +30,8 @@ function QuackCTA() {
         <div id="quackCTAButtonContainer">
 
             <div id="quackCTAButton">
-            <a href='https://app.uniswap.org/' target="_blank">
+            <a href='https://app.uniswap.org/' target="_blank"
                 Buy $MEELAY
-            </a>
             </div>
             
             

@@ -79,8 +79,6 @@ export default function Home() {
       
       <section id='indexPaymentPortal' >
       
-      {/* Add in the chart here */}
-     <Chart/>
       {/* <Uniswap/> */}
       </section>
       

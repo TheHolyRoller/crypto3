@@ -85,15 +85,15 @@ export default function Home() {
       </section>
       
     <article id='indexTextComponentContainer'>
-    {/* <TextComponent/>  */}
+    <TextComponent/> 
     
-    <ContactHeadline/> 
+    {/* <ContactHeadline/>  */}
     </article> 
     
     
     
      <footer id='indexFooterContainer' >
-    <Footer/>
+    {/* <Footer/> */}
     </footer> 
     
    

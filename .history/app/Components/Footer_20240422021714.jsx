@@ -176,22 +176,19 @@ function Footer() {
         </li>
         <li id='footerListItem' >
         <div id='twitterIcon' >
-      <Tooltip title="Twitter">
-      
         <a href='http://x.com/javormeelay' alt='alt'>
         
         <XIcon  sx={{
-          fontSize: {
-            xs: '1.8rem',  // for extra-small screens
-            sm: '2rem',    // for small screens
-            md: '2.5rem',  // for medium screens
-            lg: '3rem',    // for large screens
-          }
-          
-        }} />
+        fontSize: {
+          xs: '1.8rem',  // for extra-small screens
+          sm: '2rem',    // for small screens
+          md: '2.5rem',  // for medium screens
+          lg: '3rem',    // for large screens
+        }
+  
+      }} />
         
         </a>
-        </Tooltip>
         </div>
         
         </li>

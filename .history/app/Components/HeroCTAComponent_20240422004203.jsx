@@ -48,7 +48,7 @@ function HeroCTAComponent() {
     <div id='heroCTAButtonContainer'>
     
     <div id='heroCTAButton'>
-    <a href="https://app.uniswap.org/" target="_blank">
+    <a href="https://app.uniswap.org/" target="_blank"
     <div id='heroCTABuyDiv' >
     Buy
     </div>
@@ -57,7 +57,6 @@ function HeroCTAComponent() {
     </div>
     
     
-    </a>
     </div>
     
     

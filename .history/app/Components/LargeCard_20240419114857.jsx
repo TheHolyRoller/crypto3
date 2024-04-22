@@ -53,9 +53,8 @@
 
          </div>
           <div id='largeCardCTAButton' >
-          <a href='https://app.uniswap.org/' target="_blank">
+          
           Buy $Meelay
-          </a>
           
           {/* Not working */}
           

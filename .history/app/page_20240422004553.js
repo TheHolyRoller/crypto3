@@ -17,8 +17,6 @@ import Head from 'next/head';
 
 import Chart from '../app/Components/ChartEmbedd'; 
 
-
-
 // import useLockOrientation from '../app/hooks/useLockOrientation'; 
 // import Uniswap from '../app/Components/UniSwapComponent'; 
 
@@ -79,8 +77,6 @@ export default function Home() {
       
       <section id='indexPaymentPortal' >
       
-      {/* Add in the chart here */}
-     <Chart/>
       {/* <Uniswap/> */}
       </section>
       

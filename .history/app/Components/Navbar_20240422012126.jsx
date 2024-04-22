@@ -132,7 +132,7 @@ function Navbar() {
        <a href='https://www.farcaster.xyz/' target='_blank'>
        
          {/* Add in farcaster container here */}
-      <Tooltip title="Farcaster">
+      <Tooltip title="Dex Tools">
        <div id='navbarFarcasterContainer'>  
        <svg viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1000" height="1000" rx="200" fill="#8963d2" />

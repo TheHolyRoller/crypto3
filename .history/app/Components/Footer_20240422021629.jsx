@@ -120,6 +120,7 @@ function Footer() {
 </svg>
 
 
+        </Tooltip>
 
 
 <svg id='mobileSVG' xmlns="http://www.w3.org/2000/svg"  width="13.5rem" min-height="100%"  viewBox="0 0 356 84" fill="none"><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link" /><link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link" /><style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-style" /><style xmlns="" lang="en" type="text/css" id="dark-mode-native-sheet" /><script xmlns="" />
@@ -146,28 +147,26 @@ function Footer() {
             </a>
         </div>
       
-        </Tooltip>
         </li>
         <li id='footerListItem' >
         <div id='twitterIcon' >
 
           <div id='telegramContainer'>
-      <Tooltip title="Telegram Channel">
+         
          <a href="https://t.me/meelaymemes" alt='alt' target="_blank">
         
         {/* Add in the media queries here  */}
         <TelegramIcon  sx={{
-          fontSize: {
-            xs: '2.37rem',  // for extra-small screens
-            sm: '2rem',    // for small screens
-            md: '2.5rem',  // for medium screens
-            lg: '3rem',    // for large screens
-          }
-          
-        }}/> 
+        fontSize: {
+          xs: '2.37rem',  // for extra-small screens
+          sm: '2rem',    // for small screens
+          md: '2.5rem',  // for medium screens
+          lg: '3rem',    // for large screens
+        }
+        
+      }}/> 
             
       </a>
-        </Tooltip>
             </div>
        
        
@@ -176,22 +175,19 @@ function Footer() {
         </li>
         <li id='footerListItem' >
         <div id='twitterIcon' >
-      <Tooltip title="Twitter">
-      
         <a href='http://x.com/javormeelay' alt='alt'>
         
         <XIcon  sx={{
-          fontSize: {
-            xs: '1.8rem',  // for extra-small screens
-            sm: '2rem',    // for small screens
-            md: '2.5rem',  // for medium screens
-            lg: '3rem',    // for large screens
-          }
-          
-        }} />
+        fontSize: {
+          xs: '1.8rem',  // for extra-small screens
+          sm: '2rem',    // for small screens
+          md: '2.5rem',  // for medium screens
+          lg: '3rem',    // for large screens
+        }
+  
+      }} />
         
         </a>
-        </Tooltip>
         </div>
         
         </li>

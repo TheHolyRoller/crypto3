@@ -85,9 +85,9 @@ export default function Home() {
       </section>
       
     <article id='indexTextComponentContainer'>
-    {/* <TextComponent/>  */}
+    <TextComponent/> 
     
-    <ContactHeadline/> 
+    {/* <ContactHeadline/>  */}
     </article> 
     
     

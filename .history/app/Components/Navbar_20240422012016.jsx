@@ -89,7 +89,7 @@ function Navbar() {
       </a>
       </li>
       <li id='navbarListItem' >
-      <Tooltip title="Dex Screener">
+      <Tooltip title="Twitter">
         <button id='navbarDexScreenContainer'>
       <a id='navbarDexScreenerLink' style={{cursor: 'pointer'}}  href='https://dexscreener.com/base/0xd109457ac2d85f428a98addf6e1c7ec898976405' target="_blank">
 
@@ -132,7 +132,7 @@ function Navbar() {
        <a href='https://www.farcaster.xyz/' target='_blank'>
        
          {/* Add in farcaster container here */}
-      <Tooltip title="Farcaster">
+       
        <div id='navbarFarcasterContainer'>  
        <svg viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1000" height="1000" rx="200" fill="#8963d2" />
@@ -143,7 +143,6 @@ function Navbar() {
 
        </div>
         
-      </Tooltip>
        </a>
 
       </li>

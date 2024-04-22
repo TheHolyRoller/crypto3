@@ -87,13 +87,13 @@ export default function Home() {
     <article id='indexTextComponentContainer'>
     {/* <TextComponent/>  */}
     
-    <ContactHeadline/> 
+    {/* <ContactHeadline/>  */}
     </article> 
     
     
     
      <footer id='indexFooterContainer' >
-    <Footer/>
+    {/* <Footer/> */}
     </footer> 
     
    
