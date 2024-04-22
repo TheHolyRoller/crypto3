@@ -21,7 +21,7 @@ import BuyElementModal from '../app/Components/BuyElementModal';
 // import Head from 'next/head';
 
 // this could be causing an error 
-import Chart from '../app/Components/ChartEmbedd'; 
+// import Chart from '../app/Components/ChartEmbedd'; 
 
 
 
@@ -46,7 +46,7 @@ export default function Home() {
     {/* Just a test  */}
     {/* <BuyElementModal />  */}
     
-    <Navbar/> 
+    {/* <Navbar/>  */}
     
     <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '0'}}>
     
@@ -88,7 +88,7 @@ export default function Home() {
       <section id='indexPaymentPortal' >
       
       {/* Add in the chart here */}
-     <Chart/>
+     {/* <Chart/> */}
       {/* <Uniswap/> */}
       </section>
       

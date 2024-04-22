@@ -21,7 +21,7 @@ import BuyElementModal from '../app/Components/BuyElementModal';
 // import Head from 'next/head';
 
 // this could be causing an error 
-import Chart from '../app/Components/ChartEmbedd'; 
+// import Chart from '../app/Components/ChartEmbedd'; 
 
 
 
@@ -42,15 +42,11 @@ export default function Home() {
     <main id='mainIndexPageContainer' style={{overflowX:'hidden'}} >
    
  <nav id="indexNavContainer" >
-
-    {/* Just a test  */}
-    {/* <BuyElementModal />  */}
-    
     <Navbar/> 
     
     <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '0'}}>
     
-    <Hamburger/>
+    {/* <Hamburger/> */}
     </div>
 
 </nav> 
@@ -59,24 +55,24 @@ export default function Home() {
 
 
 <header id='homeHeroContainer' >
-      <Hero/>
+      {/* <Hero/> */}
 </header>
     
    <article id='indexMainHeaderText'>
    
-   <TextComponent/>
+   {/* <TextComponent/> */}
    
    </article> 
    
    
       <section  id='homeLargeCardContainer'> 
-    <LargeCard/> 
+    {/* <LargeCard/>  */}
     
     </section> 
     
     
     <section id='indexSquareCardContainer' >
-    <SquareCard/> 
+    {/* <SquareCard/>  */}
     
     </section>
     
@@ -88,19 +84,19 @@ export default function Home() {
       <section id='indexPaymentPortal' >
       
       {/* Add in the chart here */}
-     <Chart/>
+     {/* <Chart/> */}
       {/* <Uniswap/> */}
       </section>
       
     <article id='indexTextComponentContainer'>
     
-    <ContactHeadline/> 
+    {/* <ContactHeadline/>  */}
     </article> 
     
     
     
      <footer id='indexFooterContainer' >
-    <Footer/>
+    {/* <Footer/> */}
     </footer> 
     
    

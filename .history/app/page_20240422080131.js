@@ -46,7 +46,7 @@ export default function Home() {
     {/* Just a test  */}
     {/* <BuyElementModal />  */}
     
-    <Navbar/> 
+    {/* <Navbar/>  */}
     
     <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '0'}}>
     

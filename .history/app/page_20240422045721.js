@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import  Navbar  from '../app/Components/Navbar'; 
+import Navbar from '../app/Components/Navbar'; 
 import Hamburger from  "../app/Components/HamburgerMenu"; 
 import HeroCTA from '../app/Components/HeroCTAComponent'; 
 import HeroCTAInfoContainer from "../app/Components/HeroCTAInfoContainer"; 
@@ -13,15 +13,10 @@ import QuackCTA from '../app/Components/QuackCTA';
 import TextComponent from '../app/Components/TextComponent'; 
 import Hero from '../app/Components/HeroComponent'; 
 import ContactHeadline from '../app/Components/ContactHeadline'; 
-
-import BuyElementModal from '../app/Components/BuyElementModal'; 
-
-
-
-// import Head from 'next/head';
+import Head from 'next/head';
 
 // this could be causing an error 
-import Chart from '../app/Components/ChartEmbedd'; 
+// import Chart from '../app/Components/ChartEmbedd'; 
 
 
 
@@ -31,21 +26,19 @@ import Chart from '../app/Components/ChartEmbedd';
 
 export default function Home() {
   
+  // useLockOrientation(); 
   
   
   return (
 
 <>
+<Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>MeelayonBase</title>
-
+        <title>My Next.js Page</title>
+      </Head>
     <main id='mainIndexPageContainer' style={{overflowX:'hidden'}} >
    
  <nav id="indexNavContainer" >
-
-    {/* Just a test  */}
-    {/* <BuyElementModal />  */}
-    
     <Navbar/> 
     
     <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '0'}}>
@@ -88,11 +81,12 @@ export default function Home() {
       <section id='indexPaymentPortal' >
       
       {/* Add in the chart here */}
-     <Chart/>
+     {/* <Chart/> */}
       {/* <Uniswap/> */}
       </section>
       
     <article id='indexTextComponentContainer'>
+    {/* <TextComponent/>  */}
     
     <ContactHeadline/> 
     </article> 

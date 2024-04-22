@@ -7,7 +7,6 @@
   //  import { styled } from '@mui/material/styles';
   //  import Tooltip from '@mui/material/Tooltip';
   //  import BuyElementModal from '../Components/BuyElementModal'; 
-  
     
  
 function Navbar() {

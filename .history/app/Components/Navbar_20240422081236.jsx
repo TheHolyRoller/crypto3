@@ -5,9 +5,8 @@
  import TelegramIcon from '@mui/icons-material/Telegram';
  import XIcon from '@mui/icons-material/X';
   //  import { styled } from '@mui/material/styles';
-  //  import Tooltip from '@mui/material/Tooltip';
+   import Tooltip from '@mui/material/Tooltip';
   //  import BuyElementModal from '../Components/BuyElementModal'; 
-  
     
  
 function Navbar() {
@@ -113,7 +112,7 @@ function Navbar() {
         
         </div>
 
-      {/* </Tooltip> */}
+      </Tooltip>
 
       </a>
 
@@ -124,7 +123,7 @@ function Navbar() {
        <a href='https://www.farcaster.xyz/' target='_blank'>
        
          {/* Add in farcaster container here */}
-      {/* <Tooltip title="Farcaster"> */}
+      <Tooltip title="Farcaster">
        <div id='navbarFarcasterContainer'>  
        <svg viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1000" height="1000" rx="200" fill="#8963d2" />
@@ -135,7 +134,7 @@ function Navbar() {
 
        </div>
         
-      {/* </Tooltip> */}
+      </Tooltip>
        </a>
 
       </li>
