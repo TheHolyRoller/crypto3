@@ -1,5 +1,5 @@
 
-
+'use client'
 import Image from "next/image";
 
 import Navbar from '../app/Components/Navbar'; 
@@ -15,13 +15,15 @@ import Hero from '../app/Components/HeroComponent';
 import ContactHeadline from '../app/Components/ContactHeadline'; 
 import Head from 'next/head';
 
-// import useLockOrientation from '../app/hooks/useLockOrientation'; 
-// import Uniswap from '../app/Components/UniSwapComponent'; 
+import useLockOrientation from '../app/hooks/useLockOrientation'; 
+import Uniswap from '../app/Components/UniSwapComponent'; 
+
+
 
 
 export default function Home() {
   
-  // useLockOrientation(); 
+  useLockOrientation(); 
   
   
   return (
@@ -75,7 +77,7 @@ export default function Home() {
       
       <section id='indexPaymentPortal' >
       
-      {/* <Uniswap/> */}
+      <Uniswap/>
       </section>
       
     <article id='indexTextComponentContainer'>

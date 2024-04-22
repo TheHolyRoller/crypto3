@@ -373,6 +373,7 @@ margin: 0 auto;
                     translate: -10% !important;
                     display: inline-block !important;
                     transform: translate(10vw, 0) !important;
+                    outline: 5px solid lime; 
                     
 
                 }

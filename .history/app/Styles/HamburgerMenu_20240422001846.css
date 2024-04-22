@@ -370,10 +370,9 @@ margin: 0 auto;
 
 
                 .hamburgerMenu:has(input:checked) + .sidebar {
-                    translate: -10% !important;
+                    translate: -17% !important;
                     display: inline-block !important;
                     transform: translate(10vw, 0) !important;
-                    
 
                 }
 

@@ -75,7 +75,7 @@ export default function Home() {
       
       <section id='indexPaymentPortal' >
       
-      {/* <Uniswap/> */}
+      <Uniswap/>
       </section>
       
     <article id='indexTextComponentContainer'>

@@ -13,7 +13,7 @@
                     --bar-height:3px;
                     --hamburger-gap:4px;
                     
-                    /* Change foreground color  */
+                    /* Change this color  */
                     --foreground:   #333;
                     --background: white;
                     --hamburger-margin: 0.5rem;
@@ -370,10 +370,9 @@ margin: 0 auto;
 
 
                 .hamburgerMenu:has(input:checked) + .sidebar {
-                    translate: -10% !important;
+                    translate: -17% !important;
                     display: inline-block !important;
                     transform: translate(10vw, 0) !important;
-                    
 
                 }
 
