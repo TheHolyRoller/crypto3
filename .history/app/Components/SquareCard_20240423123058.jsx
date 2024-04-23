@@ -41,10 +41,7 @@ function SquareCard() {
     
     <div id='squareCardLearnMoreButton'>
     
-    <div id='squareCardLearnMoreText'>
-
     Learn More 
-    </div>
     
     <div id='squareCardArrowContainer'>
     <KeyboardBackspaceIcon id='squareCardArrow' /> 

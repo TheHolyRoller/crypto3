@@ -116,24 +116,17 @@ font-weight: 550;
 
 #squareCardLearnMoreContainer{
 
-    outline: 4px solid lime; 
     
-    
-}
-
-
-#squareCardLearnMoreButton{
-
-    outline: 4px solid lime; 
-    position: relative; 
     
     
 }
 
-#squareCardLearnMoreText{
 
-    outline: 4px solid red;
+#squareCardLearnMoreContainer{
     
+    
+
+
 }
 
 

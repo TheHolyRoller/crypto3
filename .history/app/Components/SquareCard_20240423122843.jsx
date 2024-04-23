@@ -38,18 +38,9 @@ function SquareCard() {
     {/* Add in the learn more button here */}
     <div id='squareCardLearnMoreContainer'>
     
-    
     <div id='squareCardLearnMoreButton'>
     
-    <div id='squareCardLearnMoreText'>
-
-    Learn More 
-    </div>
-    
-    <div id='squareCardArrowContainer'>
-    <KeyboardBackspaceIcon id='squareCardArrow' /> 
-    
-    </div>    
+    <div id='squareCardArrow' ></div>    
     </div>
      
 
