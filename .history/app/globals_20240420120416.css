@@ -33,11 +33,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  /* background-color: white;  */
-    background: #e7e3e3 !important; 
+    background: black !important; 
     overflow-x: hidden !important;  
     width: 100vw;
-    
     
 
 }
@@ -54,8 +52,7 @@ body {
 
 #mainIndexPageContainer{
 
-
-background: white; 
+background: black; 
 
 
   
@@ -83,7 +80,7 @@ background: white;
 #homeLargeCardContainer{
 
 
-  background: white;
+  background: black;
   
   }
 
@@ -91,7 +88,7 @@ background: white;
 #indexSquareCardContainer{
   
   
-  background: white; 
+  background: black; 
 
   
   
@@ -99,7 +96,7 @@ background: white;
 
 #indexQuackCTA{
 
-  /* background: white;  */
+  background: black; 
   
   
   
@@ -109,7 +106,7 @@ background: white;
 #indexTextComponentContainer{
 
   
-  background: white; 
+  background: black; 
   
   
   
@@ -118,7 +115,7 @@ background: white;
 
 #indexFooterContainer{
 
-  background: white; 
+  background: black; 
   
   
   
@@ -131,7 +128,7 @@ background: white;
 
 #homeHeroContainer{
 
-  background-color: white !important; 
+  background-color: black !important; 
 
 }
 
@@ -142,5 +139,5 @@ background: white;
 
   
   /* outline: 40px solid red;  */
-  background: white; 
+  background: black; 
 }

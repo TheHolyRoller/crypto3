@@ -34,10 +34,11 @@
 body {
   color: rgb(var(--foreground-rgb));
   /* background-color: white;  */
+
+  
     background: #e7e3e3 !important; 
     overflow-x: hidden !important;  
     width: 100vw;
-    
     
 
 }

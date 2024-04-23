@@ -16,6 +16,8 @@ import ContactHeadline from '../app/Components/ContactHeadline';
 
 import BuyElementModal from '../app/Components/BuyElementModal'; 
 
+
+
 import Chart from '../app/Components/ChartEmbedd'; 
 
 

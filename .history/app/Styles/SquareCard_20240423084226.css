@@ -215,9 +215,12 @@ font-weight: 550;
         height: 31.25rem; 
         
 
-        
+        /* outline: 5px solid hotpink;  */
         margin: 0 auto; 
-  
+        
+        
+        
+        
     }        
     
     
@@ -226,6 +229,9 @@ font-weight: 550;
             
         font-size: clamp(1.6rem, 1vw + 2rem, 1.8rem) !important; 
         font-weight: 650; 
+        
+        
+        
         
     }
     
@@ -263,6 +269,7 @@ font-weight: 550;
         height: 86vw !important;
         
         width: 86w !important;
+               
         max-width: 86vw !important;  
         
     }
