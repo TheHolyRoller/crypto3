@@ -135,18 +135,15 @@ font-weight: 550;
     margin: 1rem 0;
     background: #FFB81C; 
     cursor: pointer;
-    transition: all 600ms cubic-bezier(0.5, 0, 0.5, 1); 
-
+    
     
 }
 
-#squareCardLearnMoreButton:hover{
+#squareCardLearnMoreButton{
 
-transform: scale(1.01);  
-
-outline: 1px solid white; 
     
-
+    
+    
 }
 
 

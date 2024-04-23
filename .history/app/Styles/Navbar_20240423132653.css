@@ -24,8 +24,6 @@
     overflow-x: hidden;
      position: fixed;
      z-index: 20;
-     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
-    
      
 
 }
@@ -51,7 +49,7 @@
         position: absolute; 
 
         left: 0.68%; 
-        top: 15%; 
+        top: 25%; 
 
 
 }
@@ -116,7 +114,7 @@ display: flex;
 align-items: center;
 /* outline: 4px solid lime; */
 margin: auto;
-margin-bottom: 1.3rem;
+margin-bottom: 1.1rem;
 
 
 
@@ -241,16 +239,16 @@ cursor: pointer !important;
         
         
     }
-
     
+    
+    /* Select the Hamburger menu here  */
     #logoContainer{
-        
 
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%) !important ;
-        
-        /* outline: 4px solid lime; */
+
+        outline: 4px solid lime;
         
         -webkit-transform: translate(-50%, -50%) !important ;
         -moz-transform: translate(-50%, -50%) !important ;

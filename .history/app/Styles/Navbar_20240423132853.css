@@ -24,8 +24,6 @@
     overflow-x: hidden;
      position: fixed;
      z-index: 20;
-     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
-    
      
 
 }
@@ -116,7 +114,7 @@ display: flex;
 align-items: center;
 /* outline: 4px solid lime; */
 margin: auto;
-margin-bottom: 1.3rem;
+margin-bottom: 1.1rem;
 
 
 

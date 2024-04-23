@@ -4,32 +4,27 @@
 :root{
 
 --icon-dimensions: 2.5rem; 
-
- }
+ 
+}
 
 
 #navBarContainer{
 
 
     position: absolute; 
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 4.125rem;
-    width: 99.99vw;
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    min-height: 5rem; 
+    width: 99.99vw; 
 
-    background-color: white;
-    color: black;
-
-    overflow-x: hidden;
-     position: fixed;
-     z-index: 20;
-     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+   background-color: #2769f8; 
     
-     
+     overflow-x: hidden; 
+     position: fixed;
+     z-index: 20; 
 
 }
-
 
 
 
@@ -51,7 +46,7 @@
         position: absolute; 
 
         left: 0.68%; 
-        top: 15%; 
+        top: 25%; 
 
 
 }
@@ -84,12 +79,14 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
 
 #navbarSubContainer{
 
+
     width: 95%; 
     height: 5rem; 
     margin: 0 auto; 
     position: relative; 
-
     
+    
+
 }
 
 
@@ -105,7 +102,6 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
     place-items: center;
     margin-right: 2%; 
 
-
 }
 
 
@@ -113,10 +109,6 @@ font-size: clamp(1.1rem, 1vw + 1rem, 1.65rem) !important;
 
 
 display: flex; 
-align-items: center;
-/* outline: 4px solid lime; */
-margin: auto;
-margin-bottom: 1.3rem;
 
 
 
@@ -157,7 +149,7 @@ cursor: pointer !important;
     bottom: 0;
     left: 0;
     cursor: pointer;
-
+    
     
   }
 
@@ -178,6 +170,7 @@ cursor: pointer !important;
 
 #navbarDexScreenContainer{
 
+
     width: var(--icon-dimensions); 
     height: var(--icon-dimensions); 
     position: relative; 
@@ -187,6 +180,9 @@ cursor: pointer !important;
 #navbarDexToolsImage{
 
 
+
+    
+    /* outline: 4px solid lime;  */
     display: grid;
     place-content: center;
     
@@ -241,16 +237,15 @@ cursor: pointer !important;
         
         
     }
-
     
+    
+    /* Select the Hamburger menu here  */
     #logoContainer{
-        
-
-        left: 50%;
+        /*left: 43.4%;
+        */left: 50%;
         top: 50%;
         transform: translate(-50%, -50%) !important ;
-        
-        /* outline: 4px solid lime; */
+        padding-top: 2px;
         
         -webkit-transform: translate(-50%, -50%) !important ;
         -moz-transform: translate(-50%, -50%) !important ;

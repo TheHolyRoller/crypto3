@@ -134,26 +134,13 @@ font-weight: 550;
     border-radius: 50px;
     margin: 1rem 0;
     background: #FFB81C; 
-    cursor: pointer;
-    transition: all 600ms cubic-bezier(0.5, 0, 0.5, 1); 
-
-    
+    /* background: white; */
+    /* color: ; */
 }
-
-#squareCardLearnMoreButton:hover{
-
-transform: scale(1.01);  
-
-outline: 1px solid white; 
-    
-
-}
-
-
 
 #squareCardLearnMoreText{
 
-   transform: translate(-1rem, 0);  
+   transform: translate(-3rem, 0);  
 
 
     
@@ -169,13 +156,15 @@ outline: 1px solid white;
 #squareCardArrow{
 
     transform: rotate(90deg) !important; 
-
+    
+    /* outline: 1px solid lime;  */
+    
     position: absolute; 
     top: 10%; 
-    right: 15%;
+    right: 20%;
     
     
-    }
+}
 
 
 

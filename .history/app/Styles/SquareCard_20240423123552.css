@@ -116,7 +116,7 @@ font-weight: 550;
 
 #squareCardLearnMoreContainer{
 
-    /* outline: 4px solid lime;  */
+    outline: 4px solid lime; 
     
     
 }
@@ -124,38 +124,15 @@ font-weight: 550;
 
 #squareCardLearnMoreButton{
 
-    /* outline: 4px solid lime;  */
-    position: relative;
-    /* width: max-content;   */
-    width: 12rem;
-    display: grid; 
-    place-content: center;
-    min-height: 2rem;
-    border-radius: 50px;
-    margin: 1rem 0;
-    background: #FFB81C; 
-    cursor: pointer;
-    transition: all 600ms cubic-bezier(0.5, 0, 0.5, 1); 
-
+    outline: 4px solid lime; 
+    position: relative; 
+    
     
 }
-
-#squareCardLearnMoreButton:hover{
-
-transform: scale(1.01);  
-
-outline: 1px solid white; 
-    
-
-}
-
-
 
 #squareCardLearnMoreText{
 
-   transform: translate(-1rem, 0);  
-
-
+    outline: 4px solid red;
     
 }
 
@@ -168,14 +145,11 @@ outline: 1px solid white;
 }
 #squareCardArrow{
 
-    transform: rotate(90deg) !important; 
-
-    position: absolute; 
-    top: 10%; 
-    right: 15%;
+    transform: rotate(180deg) !important; 
     
+    outline: 1px solid lime; 
     
-    }
+}
 
 
 

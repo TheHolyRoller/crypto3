@@ -48,7 +48,8 @@ function Navbar() {
       <li id='navbarListItem' >
       <a href="https://t.me/meelaymemes" target="_blank">
       
-      
+      {/* <Tooltip title="Telegram Channel"> */}
+
       <TelegramIcon  sx={{
         fontSize: {
           xs: '2.37rem',  // for extra-small screens
