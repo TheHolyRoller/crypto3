@@ -17,7 +17,6 @@ import ContactHeadline from '../app/Components/ContactHeadline';
 import BuyElementModal from '../app/Components/BuyElementModal'; 
 
 import Chart from '../app/Components/ChartEmbedd'; 
-import CoinbaseHeroComponent from '../app/Components/CoinbaseHeroComponent'; 
 
 
 export default function Home() {
@@ -33,9 +32,7 @@ export default function Home() {
     <main id='mainIndexPageContainer' style={{overflowX:'hidden'}} >
    
  <nav id="indexNavContainer" >
-    
-    
-   <CoinbaseHeroComponent/> 
+
    
     
     {/* <Navbar/>  */}

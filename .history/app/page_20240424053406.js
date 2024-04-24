@@ -35,7 +35,6 @@ export default function Home() {
  <nav id="indexNavContainer" >
     
     
-   <CoinbaseHeroComponent/> 
    
     
     {/* <Navbar/>  */}

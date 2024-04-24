@@ -120,7 +120,6 @@ function Navbar() {
 
       </li>
       <li id='navbarListItem' >
-      
        <a href='https://warpcast.com/~/channel/milei' target='_blank'>
        
          {/* Add in farcaster container here */}

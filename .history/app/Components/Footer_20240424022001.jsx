@@ -154,7 +154,7 @@ function Footer() {
 
           <div id='telegramContainer'>
       <Tooltip title="Telegram Channel">
-         <a href="https://t.me/javormeelay" alt='alt' target="_blank">
+         <a href="https://t.me/meelaymemes" alt='alt' target="_blank">
         
         {/* Add in the media queries here  */}
         <TelegramIcon  sx={{
