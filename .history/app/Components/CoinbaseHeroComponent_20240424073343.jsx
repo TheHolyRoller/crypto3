@@ -64,7 +64,7 @@ function CoinbaseHeroComponent() {
     {/* Add in Secondary CTA Text here */}
     <div id='coinbaseSecondaryCTAText' >
     
-    Invest Now
+    Invest 
     
     </div>
     

@@ -33,11 +33,6 @@ function CoinbaseHeroComponent() {
     The future of money is here
     
     </h1>
-    <h1 id='coinbaseMobileCTAText' >
-    
-    Build your crypto portfolio 
-    
-    </h1>
     
     <div id='coinbaseHeroTextInfoContainer' >
     
@@ -53,31 +48,22 @@ function CoinbaseHeroComponent() {
     {/* Add in the call to action button here */}
     <ul id='coinbaseHeroCTAContainer'>
     
-    <li id='coinbaseHeroListItem'>
-    <div id='coinbaseCTAText'>
+    <li>
+    <div id='coinbaseCTAText' >
     
     Build your Portfolio 
     
     </div>
     
-    
-    {/* Add in Secondary CTA Text here */}
-    <div id='coinbaseSecondaryCTAText' >
-    
-    Invest Now
-    
-    </div>
-    
-    
     </li>
     
     
-    <li id='coinbaseHeroListItem'>
+    <li>
     <div id='coinbaseCTAButton' >
     Buy
-        Meelay
     
     <span id='coinbaseSpan' >
+        Meelay
     </span>
     </div>
     

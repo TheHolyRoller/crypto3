@@ -35,7 +35,6 @@ function CoinbaseHeroComponent() {
     </h1>
     <h1 id='coinbaseMobileCTAText' >
     
-    Build your crypto portfolio 
     
     </h1>
     
@@ -61,10 +60,12 @@ function CoinbaseHeroComponent() {
     </div>
     
     
+    
+    
     {/* Add in Secondary CTA Text here */}
     <div id='coinbaseSecondaryCTAText' >
     
-    Invest Now
+    Invest 
     
     </div>
     

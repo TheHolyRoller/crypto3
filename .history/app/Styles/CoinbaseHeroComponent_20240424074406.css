@@ -4,8 +4,7 @@
 #coinbaseHeroContainer{
 
 
-
-    /* outline: 4px solid lime;  */
+    outline: 4px solid lime; 
     width: 90vw; 
     margin: 5rem auto; 
     color: black; 
@@ -156,7 +155,9 @@ font-weight: 450;
 
 display: inline-block; 
 
-font-size: clamp(1.4rem, 1vw + 1rem, 1.5rem); 
+
+
+font-size: clamp(1rem, 1vw + 1rem, 1.5rem); 
 font-weight: 570;;
 margin: 1rem auto;
 width: max-content; 
@@ -261,8 +262,7 @@ width: max-content;
     
     #coinbaseHeroCTAContainer{
 
-
-        /* outline: 4px solid lime;  */
+        outline: 4px solid lime; 
         
         
     }
@@ -270,8 +270,7 @@ width: max-content;
     #coinbaseHeroListItem{
         
         
-
-        /* outline: 5px solid red;  */
+        outline: 5px solid red; 
         
         /* Decrease the margin slightly here */
 
@@ -283,8 +282,7 @@ width: max-content;
 
         /* Decrease the text clamp here */
         
-
-        /* outline: 10px solid blue;  */
+        outline: 10px solid blue; 
         font-size: clamp(1rem, 1vw + 1rem, 1.3rem)
     }
     
@@ -326,8 +324,7 @@ width: max-content;
 
     /* display: inline-block;  */
     
-
-    /* outline: 5px solid purple;  */
+    outline: 5px solid purple; 
     width: 9rem; 
     font-size: clamp(1rem, 1vw + 1rem, 2.3rem); 
     font-weight: 550; 
@@ -357,10 +354,6 @@ width: max-content;
 
 @media(max-width: 765px){
 
-    /* Select  */
-    
-    
-    
     /* Select the Image and move it to the background here */
     #coinbaseHeroImageContainer{
 
@@ -373,11 +366,8 @@ width: max-content;
 
     #coinbaseHeroSubContainer{
 
-        display: flex;
+        display: flex; 
         
-        /* Change the color here to white */
-        color: black;
-        /* color: rgb(55, 55, 55); */
         
     }
     
@@ -395,7 +385,8 @@ width: max-content;
     width: clamp(50rem, 95vw + 1rem, 95rem); 
     border-radius: 0px; 
     
-   
+    /* outline: 15px solid blue;  */
+    /* margin: 0 auto; */
 
         
     }
@@ -411,9 +402,8 @@ width: max-content;
     /* Center it  */
     #coinbaseCTAText{
         
-        display: none; 
-        
-        
+        display: inline-block;
+        margin: 0 auto; 
 
         
     }
@@ -423,33 +413,14 @@ width: max-content;
     /* Center it  */
     /* Increase it's Size  */
     #coinbaseHeroListItem{
-            
-            /* outline: 5px solid red;  */
-            
-           
-        
-    }
     
-    #coinbaseHeroCTAContainer{
 
-        /* outline: 6px solid blue;  */
-        display: grid; 
-        margin: 1rem auto; 
-        
         
     }
     
-    /* Center the Button here */
+    
     #coinbaseCTAButton{
 
-        
-        /* Increase the button size here  */
-        width: 12rem;
-        margin-left: -0.3rem;
-        
-        /* Increase the button font size here slightly  */
-
-        
         
         
     }
@@ -460,12 +431,6 @@ width: max-content;
 
         position: relative; 
         z-index: 2; 
-        
-
-
-        /* outline: 10px solid hotpink; */
-        margin: 3rem auto; 
-        
         
         
     }
@@ -487,26 +452,21 @@ width: max-content;
     /* Add in the mobile Header here */
     #coinbaseMobileCTAText{
         
-        display: block; 
+        display: inline-block; 
         margin: 0 auto; 
-
-        /* outline: 14px solid lime;  */
-        font-size: clamp(1.1rem, 1vw + 1.5rem, 2.5rem); 
+        outline: 4px solid lime; 
+        font-size: clamp(1.1rem, 1vw + 1rem, 2.5rem); 
         font-weight: 600 ;
-        text-align: center;
         
     }
 
     /* Select the paragraph and do the same  */
     #coinbaseHeroTextParagraph{
         margin: 0 auto; 
-        /* outline: 5px solid red;  */
+        outline: 5px solid red; 
         font-weight: 600; 
-        font-size: clamp(1.1rem, 1vw + 1.3rem, 2.5rem) !important; 
-        text-align: center;
-        width: 100%; 
+        font-size: clamp(1.1rem, 1vw + 1rem, 2.5rem); 
         
-        /* Increase the font size  */
         
         
         

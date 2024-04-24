@@ -156,6 +156,8 @@ font-weight: 450;
 
 display: inline-block; 
 
+
+
 font-size: clamp(1.4rem, 1vw + 1rem, 1.5rem); 
 font-weight: 570;;
 margin: 1rem auto;

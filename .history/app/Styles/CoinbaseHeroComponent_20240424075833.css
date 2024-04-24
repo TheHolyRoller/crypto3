@@ -156,7 +156,9 @@ font-weight: 450;
 
 display: inline-block; 
 
-font-size: clamp(1.4rem, 1vw + 1rem, 1.5rem); 
+
+
+font-size: clamp(1rem, 1vw + 1rem, 1.5rem); 
 font-weight: 570;;
 margin: 1rem auto;
 width: max-content; 
@@ -444,8 +446,7 @@ width: max-content;
 
         
         /* Increase the button size here  */
-        width: 12rem;
-        margin-left: -0.3rem;
+        
         
         /* Increase the button font size here slightly  */
 

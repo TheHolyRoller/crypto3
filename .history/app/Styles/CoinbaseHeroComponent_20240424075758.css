@@ -156,7 +156,9 @@ font-weight: 450;
 
 display: inline-block; 
 
-font-size: clamp(1.4rem, 1vw + 1rem, 1.5rem); 
+
+
+font-size: clamp(1rem, 1vw + 1rem, 1.5rem); 
 font-weight: 570;;
 margin: 1rem auto;
 width: max-content; 
@@ -376,8 +378,7 @@ width: max-content;
         display: flex;
         
         /* Change the color here to white */
-        color: black;
-        /* color: rgb(55, 55, 55); */
+        color: rgb(50, 47, 47);
         
     }
     
@@ -395,7 +396,8 @@ width: max-content;
     width: clamp(50rem, 95vw + 1rem, 95rem); 
     border-radius: 0px; 
     
-   
+    /* outline: 15px solid blue;  */
+    /* margin: 0 auto; */
 
         
     }
@@ -444,8 +446,7 @@ width: max-content;
 
         
         /* Increase the button size here  */
-        width: 12rem;
-        margin-left: -0.3rem;
+        
         
         /* Increase the button font size here slightly  */
 
