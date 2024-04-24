@@ -4,17 +4,13 @@
 
 #footerMainContainer{
 
-    width: 99vw; 
+    width: 99.99vw; 
     margin: auto auto; 
     
 
 
     background-color: white;
-    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 -2px 4px -1px rgba(0, 0, 0, 0.06);
-
-    
-    /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
 
     
      /* backdrop-filter: blur(16px) saturate(180%);
@@ -141,7 +137,7 @@ border-radius: 2px;
 #twitterIcon{
 
     
-    color: black;
+    
 
 
     
@@ -166,10 +162,7 @@ border-radius: 2px;
 {
 
     
-    color: black;
-    
-/* color:rgba(0, 0, 0, 0.06); */
-/*  */
+
 
 
 }

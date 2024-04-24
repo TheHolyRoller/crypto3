@@ -185,8 +185,8 @@ function Footer() {
           fontSize: {
             xs: '1.8rem',  // for extra-small screens
             sm: '2rem',    // for small screens
-            md: '2.65rem',  // for medium screens
-            // lg: '3rem',    // for large screens
+            md: '2.5rem',  // for medium screens
+            lg: '3rem',    // for large screens
           }
           
         }} />
