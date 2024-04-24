@@ -180,8 +180,6 @@ function Footer() {
       <Tooltip title="Twitter">
       
         <a href='http://x.com/javormeelay' alt='alt'>
-          
-          
         
         <XIcon  sx={{
           fontSize: {

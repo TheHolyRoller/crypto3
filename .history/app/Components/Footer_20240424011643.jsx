@@ -181,7 +181,6 @@ function Footer() {
       
         <a href='http://x.com/javormeelay' alt='alt'>
           
-          
         
         <XIcon  sx={{
           fontSize: {
