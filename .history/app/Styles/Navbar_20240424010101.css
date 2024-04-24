@@ -183,8 +183,7 @@ cursor: pointer !important;
     height: var(--icon-dimensions); 
     position: relative; 
     cursor: pointer;
-   
-    margin-top: 0.22rem;
+    /* padding-top: 0.2rem; */
     
 }
 
