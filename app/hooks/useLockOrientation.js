@@ -10,7 +10,9 @@ const useLockOrientation = () => {
       } catch (error) {
         console.error(`Orientation lock failed: ${error}`);
       }
+      
     };
+
 
     window.addEventListener('orientationchange', lockOrientation);
     lockOrientation(); // Lock on initial load
