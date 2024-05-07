@@ -46,13 +46,6 @@ export default function Home() {
     </div>
 
 </nav> 
-
-
-
-
-<header id='homeHeroContainer' >
-      {/* <Hero/> */}
-</header>
     
    <article id='indexMainHeaderText'>
    

@@ -4,22 +4,21 @@
                     box-sizing: border-box;
                 }
 
-
-
-
-
+                
                 :root {
                     --bar-width: 44px;
                     --bar-height:3px;
                     --hamburger-gap:4px;
                     
                     /* Change foreground color  */
-                    --foreground:   #333;
+                    --foreground:rgb(16, 16, 17);
                     --background: white;
                     --hamburger-margin: 0.5rem;
-                    --hamburger-left-margin: 3%;
+                    --hamburger-top-position: -1%;
+                    --hamburger-left-margin: 23%;
                     --animation-timing: 200ms cubic-bezier(0.4, 0, 0.2, 1);
                     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+
                 }
 
                 .hamburgerMenu {
@@ -29,12 +28,13 @@
                     flex-direction: column;
                     gap: var(--hamburger-gap);
                     position: absolute;
-                    top: var(--hamburger-margin);
+                    top: var(--hamburger-top-position); 
                     left: var(--hamburger-left-margin);
+
                     cursor: pointer;
                     width: max-content;
                     z-index: 5000000000000000;
-                    
+
                     
                     
                 }
@@ -56,8 +56,6 @@
                         width: var(--bar-width);
                         height: var(--bar-height);
 
-                       
-
                         background-color: var(--foreground);
                         border-radius: 9000px;
                         transform-origin: left center;
@@ -71,6 +69,7 @@
                         margin: 0;
                         outline: none;
                         pointer-events: none;
+
                     }
 
 
@@ -90,29 +89,27 @@
                     .hamburgerMenu input:checked {
                         width: 0;
                         opacity: 0;
+
                     }
-
-
-
-
 
                 .sidebar {
                     padding: 0.5rem 1rem;
                     transition: all var(--animation-timing);
                     margin-top: -0.2rem; 
-                
+                    
 
                     translate: -500% !important;
                     
                     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-                    background-color: var(--foreground);
-                    
+                    /* background-color: var(--foreground); */
+                    color: black; 
                     
                     /* Change this background color */
-                    color: var(--background);
-                    
+                    /* color: var(--background); */
+                    background-color: white; 
                     
                     width: 110vw; 
+                    outline: 12px solid red; 
                     min-width: 29rem !important; 
                     min-height: 125vh;
 
@@ -187,7 +184,7 @@
 
                 #hamburgerList{
 
-
+                    /* This isn't working  */
                 margin: 1rem auto; 
 
                 margin-top: 2rem !important; 
@@ -200,6 +197,9 @@
 
                 width: 70vw; 
                 place-self: center; 
+
+                /* outline: 10px solid lime;  */
+
 
 
 
@@ -221,6 +221,7 @@
                 
                 padding-top: 0.75rem; 
                 padding-bottom: 0.45rem; 
+                color: black; 
 
 
                 font-size: clamp(1.3rem, 1vw + 1rem, 1.8rem) !important;
@@ -228,11 +229,20 @@
                 cursor: pointer;
                 
 
-                backdrop-filter: blur(2px) saturate(77%);
+                /* backdrop-filter: blur(2px) saturate(77%);
                 -webkit-backdrop-filter: blur(2px) saturate(77%);
                 background-color: rgba(17, 25, 40, 0.06);
                 border-radius: 12px;
-                border: 1px solid rgba(255, 255, 255, 0.125);
+                border: 1px solid rgba(255, 255, 255, 0.125); */
+
+
+                /* For white background */
+                background: rgba(255, 255, 255, 0.8); /* White background with opacity */
+                border-radius: 20px; /* Rounded corners */
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Shadow */
+                backdrop-filter: blur(10px); /* Blur effect */
+                -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+                border: 1px solid rgba(255, 255, 255, 0.18);
 
                     
                 }
@@ -384,8 +394,8 @@ margin: 0 auto;
                     
 
                     */
-                    --foreground: white;
-                    --background: #333;
+                    /* --foreground: white;
+                    --background: #333; */
                 }
                     
                     @media(min-width: 995px){
@@ -416,88 +426,35 @@ margin: 0 auto;
                 }
 
 
+                @media(max-width: 450px){
 
+                    /* Select the Hamburger List here  */
+                    /* Move it left slightly  */
+                    #hamburgerList{
 
+                        margin-left: 12%; 
 
 
+                    }
 
 
 
+                }
 
 
+                @media(max-width: 420px){
 
 
 
 
 
+                }
 
 
+                @media(max-width: 370px){
 
+                    /* Select the hamburger List here  */
+                    /* Move it left slightly more  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                }
