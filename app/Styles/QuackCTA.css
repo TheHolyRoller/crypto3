@@ -40,7 +40,7 @@
     
 
 
-font-size: clamp(0.5rem, 1vw + 1rem, 1.4rem) !important; 
+font-size: clamp(0.5rem, 1vw + 1rem, 1.7rem) !important; 
 
 font-weight: 700; 
 text-align: center; 
@@ -68,7 +68,7 @@ text-align: center;
 #quackCTAButton{
 
     
-    width:10.313rem; 
+    width:11.313rem; 
     background: #2769f8; 
     color: white;
     
@@ -78,7 +78,7 @@ text-align: center;
     border-radius: 50px; 
    
     
-    font-size: clamp(0.8rem, 1vw + 1rem, 1rem) !important; 
+    font-size: clamp(0.8rem, 1vw + 1rem, 1.2rem) !important; 
     font-weight: 650;
     min-height: 3.5rem;
     
@@ -104,6 +104,7 @@ text-align: center;
 
     
 }
+
 
 
 

@@ -267,7 +267,16 @@ cursor: pointer !important;
 }
 
 
+@media(max-width: 990px){
 
+    #logoCasing{
+
+        margin-top: -0.66rem; 
+        
+    }
+
+
+}
 
 
 

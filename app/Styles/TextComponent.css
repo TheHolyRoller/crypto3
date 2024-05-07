@@ -52,8 +52,6 @@ font-weight: 600;
 font-size: var(--font-size);
 
 
-
-
 }
 
 #textComponentBottomText{
@@ -70,6 +68,20 @@ font-size: var(--font-size);
 
 
 /* Add in the media queries here */
+
+@media(max-width: 1075px){
+
+    /* Select the Headline here  */
+    #textComponentMainContainer{
+
+        margin-top: -10rem; 
+
+    }
+
+
+}
+
+
 
 @media(max-width: 1000px){
 

@@ -1,18 +1,12 @@
 
-
  import "../Styles/Navbar.css";
  import Hamburger from '../Components/HamburgerMenu.jsx'; 
  import TelegramIcon from '@mui/icons-material/Telegram';
  import XIcon from '@mui/icons-material/X';
-  //  import { styled } from '@mui/material/styles';
-  //  import Tooltip from '@mui/material/Tooltip';
-  //  import BuyElementModal from '../Components/BuyElementModal'; 
-  
-    
+
  
 function Navbar() {
   return (
-
 
     <nav id='navBarContainer'>
 

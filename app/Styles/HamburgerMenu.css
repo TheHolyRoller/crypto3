@@ -389,13 +389,8 @@ margin: 0 auto;
 
                 .hamburgerMenu:has(input:checked) {
 
-
-                    /*
                     
-
-                    */
-                    /* --foreground: white;
-                    --background: #333; */
+                 
                 }
                     
                     @media(min-width: 995px){
