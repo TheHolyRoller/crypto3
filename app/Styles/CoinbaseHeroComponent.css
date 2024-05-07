@@ -3,18 +3,11 @@
 
 #coinbaseHeroContainer{
 
-
-
-    /* outline: 4px solid lime;  */
     width: 90vw; 
     margin: 5rem auto; 
     color: black; 
     min-height: 90vh; 
     position: relative; 
-    
-    
-
-     
     
 }
 
@@ -22,13 +15,13 @@
 #coinbaseHeroSubContainer{
     
     width: 69.336vw; 
-    /* outline: 7px solid red; */
+
+    max-width: 75.625rem; 
     margin: 0 auto; 
     display: grid; 
     place-content: center; 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
 
-    
 }
 
 
@@ -36,14 +29,12 @@
 #coinbaseHeroImageSection{
 
     
-    
-    
 }
 
 
 #coinbaseHeroImageContainer{
 
-    
+
     
 }
 
@@ -58,7 +49,6 @@ background-repeat: no-repeat;
 min-height: 33.938rem;
 width: 35rem; 
 max-width: 35rem; 
-
 border-radius: 25px; 
 
 
@@ -68,14 +58,8 @@ border-radius: 25px;
 
 #coinbaseHeroTextSection{
 
-
-
-
-/* outline: 7px solid blue;  */
 display: grid; 
 align-content: center;
-    
-    
     
 }
 
@@ -92,9 +76,6 @@ align-content: center;
 
 /* Clamp the text here */
 font-size: clamp(1.1rem, 1vw + 2rem, 4.65rem); 
-
-
-/* outline: 4px solid lime;  */
 
 width: 90%; 
 margin: 0 auto;
@@ -374,11 +355,12 @@ width: max-content;
     #coinbaseHeroSubContainer{
 
         display: flex;
-        
-        /* Change the color here to white */
         color: black;
-        /* color: rgb(55, 55, 55); */
+        margin-top: -1rem; 
+        margin-bottom: 0; 
+        padding-bottom: 0; 
         
+
     }
     
     
@@ -389,8 +371,7 @@ width: max-content;
     top: 0; 
     left: 50%; 
     transform: translate(-50%, 0%); 
-    
-    /* Change the width clamp here */
+
     max-width: 100vw !important; 
     width: clamp(50rem, 95vw + 1rem, 95rem); 
     border-radius: 0px; 

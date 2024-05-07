@@ -38,11 +38,11 @@ export default function Home() {
    <CoinbaseHeroComponent/> 
    
     
-    {/* <Navbar/>  */}
+    <Navbar/> 
     
     <div id='hamburgerContainer' style={{position: 'fixed', zIndex: '2000', top: '0'}}>
     
-    {/* <Hamburger/> */}
+    <Hamburger/>
     </div>
 
 </nav> 
@@ -56,41 +56,43 @@ export default function Home() {
     
    <article id='indexMainHeaderText'>
    
-   {/* <TextComponent/> */}
+   
+   <TextComponent/>
    
    </article> 
    
    
       <section  id='homeLargeCardContainer'> 
-    {/* <LargeCard/>  */}
+    <LargeCard/> 
     
     </section> 
     
     
     <section id='indexSquareCardContainer' >
-    {/* <SquareCard/>  */}
+    <SquareCard/> 
     
     </section>
     
     
      <article id='indexQuackCTA'>
-    {/* <QuackCTA/> */}
+    <QuackCTA/>
       </article> 
       
       <section id='indexPaymentPortal' >
       
-     {/* <Chart/> */}
+     <Chart/>
       </section>
       
     <article id='indexTextComponentContainer'>
     
-    {/* <ContactHeadline/>  */}
+    <ContactHeadline/> 
     </article> 
     
     
     
      <footer id='indexFooterContainer' >
-    {/* <Footer/> */}
+    <Footer/>
+
     </footer> 
     
    

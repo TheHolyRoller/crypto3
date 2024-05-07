@@ -24,6 +24,7 @@
     place-content: center;
     text-align: center; 
     color: #100f0f; 
+
     
     
 }
@@ -104,6 +105,20 @@ font-size: var(--font-size);
     
     
     
+}
+
+
+@media(max-width: 770px){
+
+       
+    #textComponentMainContainer{
+        
+        margin-top: -16.5rem; 
+
+
+    }
+
+
 }
 
 
