@@ -14,6 +14,8 @@ function TextComponent() {
     In Seconds
     </div>
     
+
+    
     
     
     </div>
